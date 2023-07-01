@@ -1,0 +1,36 @@
+/* 
+Block element: by default they start a new line, and takes full width of the line
+examples: heading(h1...h6), <p>, <div>, <form>,<ul> ,<li>.
+
+Inline elements: by default they take only they width which their contents fit in. 
+they do not start a new line.
+examples: <a> ,<img> ,<span> ,<label> ,<input> ,<i> ,<b>.
+
+we can change their default behaviors by changing the display mode.
+
+
+*/
+
+body {
+  text-align: center;
+}
+
+.block {
+  background-color: aquamarine;
+  width: 400px;
+  margin: 4px auto;
+  /* display: inline; */
+}
+
+.inline {
+  background-color: blueviolet;
+  /* display: block; */
+}
+
+/* 
+
+for block elements, in order to put them in center, we have to give them a fixed width, then put
+margin: yourChoice,auto;
+text-align only puts the text the in the center
+
+*/
