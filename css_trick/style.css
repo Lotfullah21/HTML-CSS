@@ -1,0 +1,6 @@
+/* putting border on every elements can help us to get an overall view of our layout */
+* {
+  border: 2px solid black;
+}
+
+/* we say draw a solid border around each element present in the page with the width of 2px  and black color*/
