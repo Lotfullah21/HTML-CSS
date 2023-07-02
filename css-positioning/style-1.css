@@ -1,0 +1,36 @@
+/* position:sticky -  the element will not get out of normal flow*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 120vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  margin-bottom: 4rem;
+  position: sticky;
+  /* stick to the top of screen */
+  top: 40px;
+  background-color: rgb(50, 49, 51);
+  height: 3rem;
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  padding-bottom: 2rem;
+  padding: 2rem;
+}
+
+div .nav {
+  clear: both;
+}
