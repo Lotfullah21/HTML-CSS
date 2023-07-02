@@ -1,0 +1,39 @@
+img {
+  position: absolute;
+  width: 230px;
+  height: 170px;
+}
+/* image position are relative to gallery class */
+.gallery {
+  position: relative;
+  border: 4px solid gold;
+  width: 95vw;
+  height: 90vh;
+  margin: 20px;
+}
+
+.one {
+  top: 0;
+  left: 0;
+  z-index: 8;
+}
+
+.two {
+  top: 15%;
+  left: 15%;
+  /* z-index: 4; */
+}
+.three {
+  top: 30%;
+  left: 30%;
+}
+.four {
+  top: 45%;
+  left: 45%;
+}
+
+.five {
+  top: 60%;
+  left: 60%;
+  z-index: 1;
+}
