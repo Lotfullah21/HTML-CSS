@@ -1,0 +1,33 @@
+/* Using transform:translate we can move the element along the x and y axis */
+/* using transform:scale property we can resize the elements */
+
+div {
+  width: 80px;
+  height: 120px;
+  display: inline-block;
+  margin: 2px;
+  text-align: center;
+}
+
+.one {
+  background-color: blueviolet;
+  transform: translateX(40px);
+  transform: scaleX(1.1);
+  transform: skewX(31deg);
+}
+
+.two {
+  background-color: aquamarine;
+  transform: translateZ(90%);
+  transform: scaleZ(1.13);
+  transform: rotate(-30deg);
+  transform: skewX(30deg);
+}
+
+.three {
+  background-color: aqua;
+  transform: translate(-20px, -7px);
+  transform: scale(2, 1.1);
+  transform: rotate(40deg);
+  transform: skewX(-30deg);
+}
