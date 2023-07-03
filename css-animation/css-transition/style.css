@@ -1,0 +1,67 @@
+/* Using transform:translate we can move the element along the x and y axis */
+/* using transform:scale property we can resize the elements */
+
+div {
+  width: 80px;
+  height: 120px;
+  display: inline-block;
+  margin: 2px;
+  text-align: center;
+}
+
+div:hover {
+  background-color: rgba(2, 18, 39, 0.5);
+}
+
+.one {
+  background-color: blueviolet;
+  transform: translateX(40px);
+  transform: scaleX(1.1);
+  transform: skewX(31deg);
+  transition-property: background, border, border-radius;
+  transition-duration: 3s, 2s, 2s;
+  transition-delay: 1s;
+}
+
+.one:hover {
+  border: 2px rgb(179, 4, 4) solid;
+  border-radius: 70%;
+}
+
+.two {
+  background-color: aquamarine;
+  transform: translateZ(90%);
+  transform: scaleZ(1.13);
+  transform: rotate(-30deg);
+  transform: skewX(30deg);
+  transition-property: background;
+  transition-duration: 5s;
+}
+
+.three {
+  background-color: rgba(0, 255, 255, 0.96);
+  transform: translate(-20px, -7px);
+  transform: scale(2, 1.1);
+  transform: rotate(40deg);
+  transform: skewX(-30deg);
+  transition-property: background;
+  transition-duration: 8s;
+}
+
+.four {
+  display: block;
+  padding: 1.3em;
+  margin: 3em;
+  background-color: rgba(152, 181, 4, 0.816);
+  transform: translate(-20px, -7px);
+  transform: scale(2, 1.1);
+  /* the 2nd timing is the time delay */
+  transition: all 2s 1s;
+}
+
+.four:hover {
+  background-color: aqua;
+  transform: rotate(40deg);
+  transform: skewX(-30deg);
+  border-radius: 50%;
+}
