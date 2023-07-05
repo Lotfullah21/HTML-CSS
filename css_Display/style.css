@@ -15,6 +15,14 @@ body {
   text-align: center;
 }
 
+/* 
+Browsers in block box, respect height,width,top,bottom margins
+Browsers in inline box,respect none
+
+
+
+*/
+
 .block {
   background-color: aquamarine;
   width: 400px;
