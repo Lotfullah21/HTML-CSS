@@ -37,7 +37,8 @@ justify-content: space-around;
 }</code>
 
 <code>align-items:flex-end...</code> is responsible for aligning our items along vertical axis or cross axis.
-<code>align-items means move the boxes in the vertical direction, top or bottom _/
+<code>
+align-items means move the boxes in the vertical direction, top or bottom _/
 .container {
 height: 400px;
 /_ align-items:stretch == default _/
