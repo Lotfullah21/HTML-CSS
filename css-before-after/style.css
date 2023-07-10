@@ -1,4 +1,4 @@
-/* ::before and ::after creates element before and after to the specified image  */
+/* ::before and ::after creates element before and after to the specified image,or other elements  */
 
 h1::before {
   content: "Salam Jahan";
