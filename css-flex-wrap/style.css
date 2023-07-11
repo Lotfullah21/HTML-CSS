@@ -1,0 +1,46 @@
+body {
+  background-color: grey;
+  border: 5px rgba(255, 50, 248, 0.754) solid;
+}
+
+.container {
+  /* height: 90px; */
+  display: flex;
+  /* create a new line if the contents dose not fit */
+  flex-wrap: wrap;
+}
+.box {
+  text-align: center;
+  font-size: 2.9rem;
+  padding: 1rem;
+}
+.box-1 {
+  background: rebeccapurple;
+}
+.box-1 {
+  background: rgb(78, 153, 51);
+}
+.box-2 {
+  background: rgb(51, 76, 153);
+}
+.box-3 {
+  background: rgb(153, 97, 51);
+}
+.box-4 {
+  background: rgb(153, 51, 75);
+}
+.box-5 {
+  background: rgb(23, 92, 220);
+}
+.box-6 {
+  background: rgb(66, 153, 51);
+}
+.box-7 {
+  background: rgb(153, 51, 114);
+}
+.box-8 {
+  background: rgb(150, 153, 51);
+}
+.box-9 {
+  background: rgb(126, 0, 0);
+}
