@@ -1,13 +1,9 @@
-/* div is used to group multiple elements */
-/* span is used to group inline elements */
-#greeting{
-    background-color: dimgrey;
+/* only select the p's which are children or contained within 'my-block' class*/
+.my-block p {
+  color: red;
 }
 
-span{
-    background-color: rebeccapurple;
-}
-
-div>p{
-    background-color: aqua;
+#new-block h2,
+p {
+  color: blueviolet;
 }
