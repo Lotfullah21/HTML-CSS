@@ -1,0 +1,9 @@
+/* only select the p's which are children or contained within 'my-block' class*/
+.my-block p {
+  color: red;
+}
+
+#new-block h2,
+p {
+  color: blueviolet;
+}
