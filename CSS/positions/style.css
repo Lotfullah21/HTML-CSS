@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* .navbar {
+  width: 100%;
+  background: black;
+  color: white;
+  font-size: 2rem;f
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 0;
+  text-transform: capitalize;
+} */
+
+div {
+  margin-top: 10px;
+}
+.one {
+  background: red;
+  padding: 1rem;
+}
+
+.two {
+  background: black;
+  color: white;
+  padding: 2rem;
+  /* position: relative; */
+}
+
+.king {
+  background: white;
+  color: red;
+  padding: 1rem;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  display: block;
+  height: 100vh;
+}
+
+.sticky {
+  width: 100%;
+  background: rgb(90, 81, 81);
+  color: white;
+  position: sticky;
+  /* it says once the scroll reached 30 from the top, put the position fixed and stick it there. */
+  top: 90px;
+  font-size: 2rem;
+  margin-top: 0;
+  text-transform: capitalize;
+}
