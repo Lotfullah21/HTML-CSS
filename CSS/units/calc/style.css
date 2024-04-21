@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+
+.navbar {
+  background-color: rgb(13, 12, 34);
+  height: 30px;
+  color: white;
+}
+
+.hero {
+  font-size: 34px;
+  font-weight: normal;
+  background: rgba(4, 38, 19, 0.408);
+  height: calc(100vh - 20rem);
+  line-height: 1.5;
+}
+
+.test {
+  max-height: 3rem;
+  background: green;
+  overflow: auto;
+}

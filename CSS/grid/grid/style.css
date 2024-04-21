@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: auto 120px auto;
+  /* add gap between the cells */
+  column-gap: 2px;
+  row-gap: 4px;
+}
+
+.cell {
+  border: 4px solid black;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
+
+.cell-1 {
+  background: rgb(76, 27, 27);
+}
+
+.cell-2 {
+  background: rgb(26, 26, 26);
+}
+
+.cell-3 {
+  background: rgb(0, 72, 255);
+}
+
+.cell-4 {
+  background: rgb(0, 255, 208);
+}
+
+.cell-5 {
+  background: rgb(0, 255, 17);
+}
