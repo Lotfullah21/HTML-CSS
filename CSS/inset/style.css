@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  background: black;
+  width: 350px;
+  height: 350px;
+}
+
+.normal-box {
+  background: rgb(41, 38, 38);
+}
+
+.special-box {
+  background: gray;
+  position: relative;
+}
+
+.special-box p {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(10, 2, 2);
+  font-size: 4em;
+  color: #fff;
+  inset: 20px 30px 20px 30px;
+  text-align: center;
+}
