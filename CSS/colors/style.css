@@ -1,0 +1,11 @@
+h1 {
+  color: #ff0000;
+}
+
+h2 {
+  color: #aabb00;
+}
+
+body {
+  background: hsl(0, 0%, 0%);
+}
