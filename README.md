@@ -9,6 +9,7 @@ Welcome to the HTML and CSS Resources repository, a curated collection of materi
 - [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
 - [Contents](#contents)
+- [Personal Recommendations:](#personal-recommendations)
 - [Usage](#usage)
 
 ## Introduction
@@ -58,6 +59,14 @@ This repository serves as a learning resource for CSS enthusiasts, developers, a
 | z-index                | CSS z-index property usage.                         |
 
 Feel free to explore each file to learn more about the specific CSS technique or trick it demonstrates.
+
+## Personal Recommendations:
+
+Few good extension to have
+
+- prettier: <a href="https://marketplace.visualstudio.com/items?itemName=esbenp prettier-vscode">prettier</a>
+- highlights Matching: <a href="https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag">highlights matching</a>
+- indent rainbow: <a href="https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow">ident rainbow</a>
 
 ## Usage
 

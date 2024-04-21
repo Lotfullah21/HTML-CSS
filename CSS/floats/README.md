@@ -1,19 +1,19 @@
-## float
+# `line-height = line-height * font-size`.
 
-it allows us to move around the element which float property had been added.
+# inline and block elements
 
-for instance, if we want the elements after an image to float around an image, the `float` property should be added to the selector.
+1. ### Block
 
-it forces the element to be out of normal flow.
+block level elements take the full width.
+it respects width, height, margin in all directions
 
-```css
-img {
-  float: left;
-}
+2. ### Inline
 
-p {
-  clear: left;
-}
-```
+it takes the width of its contents.
+it respects margin in left and right directions only, not the height and width, neither the margin top and bottom.
+to center an inline element, we can use `text-align:center` property in its center.
 
-use `clear` property to make sure that for the elements that are following the the element with float properties does not follow that, which means that element is not going to float around.
+for `block` level elements, we need to specify the width and use `margin:0 auto` property.
+
+3. ### Inline block
+   it does not start a new line, but respect all the properties that is respected block elements.
