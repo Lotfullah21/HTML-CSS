@@ -2,7 +2,7 @@
 
 Welcome to the HTML and CSS Resources repository, a curated collection of materials aimed at helping you master the essentials of web development! Whether you're just starting out on your coding journey or looking to expand your existing skills, you'll find a wealth of valuable resources here
 
-<img src="./assets/description.png" alt="Description of the image" width="400" height="300">
+<img src="./assets/description.png" alt="Description of the image" width="750" height="480">
 
 ## Table of Contents
 
@@ -56,8 +56,6 @@ This repository serves as a learning resource for CSS enthusiasts, developers, a
 | project-0              | CSS techniques for specific projects.               |
 | units                  | Understanding and using CSS measurement units.      |
 | z-index                | CSS z-index property usage.                         |
-
-<img src="./assets/internet.png" alt="Description of the image" width="400" height="300">
 
 Feel free to explore each file to learn more about the specific CSS technique or trick it demonstrates.
 
