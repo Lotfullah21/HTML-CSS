@@ -23,12 +23,12 @@ Every box consist of four element which are content, padding, border, and margin
           has width and height which are known as content height and content
           width
         </td>
-        </tr>
-        <tr>
-        <td>
+          <td>
           element{ width:2px; min-with:1px; max-width:3px; height:4px;
           min-height:2px; max-height:8px; }
         </td>
+        </tr>
+        <tr>
       </tr>
       <tr>
         <td>padding</td>
