@@ -7,3 +7,13 @@
 p {
   color: blueviolet;
 }
+
+#greeting {
+  color: red;
+}
+
+.intro {
+  background: rgb(204, 204, 204);
+  padding: 3rem;
+  color: green;
+}
