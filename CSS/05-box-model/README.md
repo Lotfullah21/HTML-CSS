@@ -1,7 +1,7 @@
-#### Box
+### Box Model
 
 Boxes helps web browsers on how to display the elements on the screen.
-Each single element is enclosed inside a box. For instance if we consider <p>Hello</p> as our element, then there is a box around this element which specifies its heights, widths, its distance from other element and so on.
+Each single element is enclosed inside a box. For instance if we consider `<p>Hello</p>` as our element, then there is a box around this element which specifies its heights, widths, its distance from other element and so on.
 
 CSS roles are applied to the box of the element.
 
