@@ -73,5 +73,5 @@ Few good extension to have
 You can use these files by simply downloading or cloning the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/css-tricks-and-tips.git
+https://github.com/[your-user-name]/HTML-CSS.git
 ```
