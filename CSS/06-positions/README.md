@@ -1,9 +1,9 @@
 ## Positions
 
 1. ## Static:
-   it is the normal position for the elements, wherever the elements are, in that place they will appear on the screen.
+   It is the normal position for the elements, wherever the elements are in the html file, on that exact place they will appear on the screen.
 
-if `p` is first, it will appear first. if `h` is first, it is going to appear first.
+If `p` is first, it will appear first. if `h` is first, it is going to appear first.
 
 2. ## absolute
    when the position for an element set to be absolute, that element is relative to the element that it's position is set to the `position:relative`.

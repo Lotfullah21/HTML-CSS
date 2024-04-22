@@ -1,8 +1,6 @@
 /* in CSS for some of the elements, there is a box around each element
 like: headings(h1...h6) ,img,div,form 
-negative margin: it is used to attract elements or move one  element on top of another
-outline: it is used to draw boxes around an element, but with one vital difference with border, we can move the outline ot the outside or inside
-of our boxes 
+
 
 */
 body {
@@ -28,6 +26,7 @@ body {
   border: 5px solid rgb(15, 184, 218);
   border-radius: 5px;
   /* margin-top: -2em; */
-  outline: 5px solid red;
+  outline: 3px solid red;
+  /* move the outline inside the border. */
   outline-offset: -20px;
 }

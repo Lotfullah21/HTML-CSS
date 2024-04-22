@@ -7,7 +7,6 @@ CSS roles are applied to the box of the element.
 
 Every box consist of four element which are content, padding, border, and margin.
 
-<img src="./assets/box.png">
 <img src="./assets/detail.png">
 
 <table>
@@ -59,3 +58,12 @@ Every box consist of four element which are content, padding, border, and margin
       </tr>
 
 <table>
+
+#### negative margins:
+
+It is used to attract elements or move one element on top of another
+`outline`: it is used to draw boxes around an element, but with one vital difference with border, we can move the outline to the outside or inside of the boxes.
+
+Padding does increase the size of the content, but rather increase the area where the content is placed.
+
+<img src="./assets/box.png">
