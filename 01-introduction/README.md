@@ -124,6 +124,17 @@ For instance `React, Angular` in JavaScript for frontend development, `Django,Ex
 - Compatibility issues with the libraries outside of the framework
 - Dependence on the libraries that are used inside the framework
 
+#### Package Manager:
+A tool that automatically download and install dependencies.
+
+"download" involves transferring files from a remote location to a local device, while "install" involves setting up and configuring the downloaded software on the local device to make it usable. Downloading is the initial step to obtain the necessary files, while installing is the subsequent step to set up the software for use.
+
+We use `Node package manager (NPM)` for managing our dependencies in front-end development.
+
+
+#### Bundling:
+The process of adding all dependencies inside a file in html file is known as bundling.
+famous ones are `Webpack` and `Gulp`.
 ###### Refactoring:
 
 Changing the structure of the code without changing its functionality.
