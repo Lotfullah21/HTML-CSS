@@ -1,9 +1,19 @@
-## Z-index
+# `line-height = line-height * font-size`.
 
-it always points towards us.
-the higher z-index of an element, the closer it is to the screen and the user of that screen.
-by default, z-index = 0;
+# inline and block elements
 
-## ! Note:
+1. ### Block
 
-it does not work for position static.
+block level elements take the full width.
+it respects width, height, margin in all directions
+
+2. ### Inline
+
+it takes the width of its contents.
+it respects margin in left and right directions only, not the height and width, neither the margin top and bottom.
+to center an inline element, we can use `text-align:center` property in its center.
+
+for `block` level elements, we need to specify the width and use `margin:0 auto` property.
+
+3. ### Inline block
+   it does not start a new line, but respect all the properties that is respected block elements.

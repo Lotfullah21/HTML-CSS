@@ -4,31 +4,32 @@
   padding: 0;
 }
 
-img {
-  width: 220px;
-  height: 220px;
-  position: absolute;
+div {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  text-transform: capitalize;
+  color: white;
+}
+.big-img {
+  background: url("./images/kids.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
-.card {
-  position: relative;
-  width: 80vw;
-  height: 90vh;
-  border: 3px blue solid;
-  margin: 1rem auto;
+.small-img {
+  background: url("./images/teaching.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.one {
-  top: 0;
-  left: 0;
-}
-
-.two {
-  top: 10%;
-  left: 10%;
-}
-
-.three {
-  top: 20%;
-  left: 20%;
+.normal-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./images/children.jpg") center/cover no-repeat fixed;
 }
