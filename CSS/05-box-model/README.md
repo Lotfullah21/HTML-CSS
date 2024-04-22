@@ -8,7 +8,7 @@ CSS roles are applied to the box of the element.
 Every box consist of four element which are content, padding, border, and margin.
 
 <img src="./assets/box.png">
-<img src="./assets/details.png">
+<img src="./assets/detail.png">
 
 <table>
       <tr>
@@ -23,7 +23,8 @@ Every box consist of four element which are content, padding, border, and margin
           has width and height which are known as content height and content
           width
         </td>
-
+        </tr>
+        <tr>
         <td>
           element{ width:2px; min-with:1px; max-width:3px; height:4px;
           min-height:2px; max-height:8px; }
@@ -56,3 +57,5 @@ Every box consist of four element which are content, padding, border, and margin
           margin-left:3px; }
         </td>
       </tr>
+
+<table>
