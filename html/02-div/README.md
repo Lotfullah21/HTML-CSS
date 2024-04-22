@@ -1,3 +1,15 @@
+#### <!DOCTYPE html>
+
+The first element in an HTML document is the DOCTYPE declaration which notifies the web browser that it is an HTML document.
+
+#### tags and elements:
+
+a tag is the markup syntax used to define elements, while an element consists of the opening tag, content, and closing tag, and represents a specific piece of content within the HTML document.
+
+#### Markup:
+
+"Markup" refers to the process of annotating text to give it meaning, structure, or formatting.
+
 #### DIV:
 
 A <div> tag defines a content division in a HTML document. It acts as a generic container and has no effect on the content unless it is styled by CSS.

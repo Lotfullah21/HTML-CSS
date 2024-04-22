@@ -2,7 +2,7 @@
 
 Welcome to the HTML and CSS Resources repository, a curated collection of materials aimed at helping you master the essentials of web development! Whether you're just starting out on your coding journey or looking to expand your existing skills, you'll find a wealth of valuable resources here
 
-<img src="./assets/description.png" alt="Description of the image" width="750" height="480">
+<img src="./assets/description.png" alt="HTML,CSS and JavaScript diagram" width="750" height="500">
 
 ## Table of Contents
 
