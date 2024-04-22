@@ -1,0 +1,28 @@
+*/ * {
+  /* margin: 0; */
+  padding: 0;
+}
+
+.heading {
+  text-align: center;
+  letter-spacing: 4px;
+  /* line-height: 30; */
+  border: 2px solid red;
+}
+
+.text-1 {
+  line-height: 40px;
+}
+
+.heading-1 {
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: overline dotted red;
+}
+
+.text-2 {
+  word-spacing: 5px;
+  text-align: justify;
+  text-decoration: underline;
+  text-decoration-color: rgb(0, 145, 255);
+}
