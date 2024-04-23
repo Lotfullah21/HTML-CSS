@@ -1,4 +1,4 @@
-### Semantics:
+# Semantics:
 It is best practice when writing an html code to describe the content using something that has meaning.
 For instance, if you are trying to add headings, do not use `<p>` and increase its font size;Use headings tags instead to convey to the search engine and screen readers that it is a heading.
 Each html tags are there to server a purpose.
@@ -46,7 +46,7 @@ The idea is simple, describe your content semantically to add meaning using prop
 
 ```
 
-## 1. Navbar:
+## 1. Head:
 The main navigation links of your website should be added inside the nav element.
 
 
@@ -178,8 +178,23 @@ It contains additional links and content to the website.
 ```
 
 
-<img src="./basic.png"></img>
-<figcaption>Layout of a simple website.</figcaption>
+<figure>
+    <img src="./basic.png" alt="Layout of a simple website">
+    <figcaption>Layout of a simple website.</figcaption>
+</figure>
+
+<figure>
+    <img src="./basic.png" alt="Layout of a simple website">
+    <figcaption>Layout of a simple website.</figcaption>
+</figure>
+
+<h2>Content:</h2>
+<ul>
+    <li>&lt;figcaption&gt;: Defines a caption for a photo image.</li>
+    <li>&lt;figure&gt;: Applies markup to a photo image.</li>
+</ul>
+
+
 
 ## More semantic elements:
 
@@ -227,7 +242,7 @@ It contains additional links and content to the website.
 
 `<canvas>`: Used to render 2D and 3D graphics on web pages.
 
-<code>
+```html
 <embed>
 Used as a containing element for external content provided by an external application such as a media player or plug-in application. 
 
@@ -247,11 +262,9 @@ Embeds an image on a web page.
 
 <svg>: Used to define Scalable Vector Graphics within a web page.
 
+```
 
-</code>
-
-## Table:
-
+```html
 <code>
 
 <table>
@@ -277,9 +290,14 @@ Defines a header cell of a table. Contains the text content of the header.
 
 <caption>
 Defines the caption of a table element.
-</code>
 
-```bash
+
+```
+## Table:
+
+
+
+```html
 <table>
     <thead>
         <tr>
