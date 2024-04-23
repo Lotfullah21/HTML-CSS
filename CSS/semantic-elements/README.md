@@ -179,7 +179,7 @@ It contains additional links and content to the website.
 
 
 <figure>
-    <img src="../ass/basic.png" alt="Layout of a simple website">
+    <img src="./assets/basic.png" alt="Layout of a simple website">
     <figcaption>Layout of a simple website.</figcaption>
 </figure>
 
@@ -317,6 +317,6 @@ Defines the caption of a table element.
 ```
 
 <figure>
-    <img src="./assets/semantics.png" alt="Layout of a simple website">
-    <figcaption>Layout of a simple website.</figcaption>
+    <img src="./assets/semantics.png" alt="Layout of a website described by different elements.">
+    <figcaption>Layout of a website described by different elements.</figcaption>
 </figure>
