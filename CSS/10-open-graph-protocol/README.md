@@ -40,6 +40,9 @@ We need to include at least four different protocols, `og:title`,`og:type`,`og:u
 
 
    <figure style="margin: 0 auto; max-width: 600px; text-align: center;">
-        <img src="../assets/og.jpeg" alt="Describing open graph protocol" style="margin-bottom: 10px;">
-        <figcaption style="padding-top: 10px;">Open graph protocol and its properties</figcaption>
+        <img src="./assets/og.jpeg" alt="Describing open graph protocol" style="margin-bottom: 10px;">
+        <figcaption style="padding-top: 10px; text-align:center;">Open graph protocol and its properties</figcaption>
     </figure>
+
+
+<a><img src="https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/">og-image-source</a>
