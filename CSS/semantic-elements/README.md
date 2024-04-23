@@ -46,7 +46,7 @@ The idea is simple, describe your content semantically to add meaning using prop
 
 ```
 
-## 1. Head:
+## 1. Header:
 The main navigation links of your website should be added inside the nav element.
 
 
@@ -179,14 +179,10 @@ It contains additional links and content to the website.
 
 
 <figure>
-    <img src="./basic.png" alt="Layout of a simple website">
+    <img src="../ass/basic.png" alt="Layout of a simple website">
     <figcaption>Layout of a simple website.</figcaption>
 </figure>
 
-<figure>
-    <img src="./basic.png" alt="Layout of a simple website">
-    <figcaption>Layout of a simple website.</figcaption>
-</figure>
 
 <h2>Content:</h2>
 <ul>
@@ -200,14 +196,14 @@ It contains additional links and content to the website.
 
 ### Headings:
 
-`<h1><h2><h3><h4><h5><h6>`: Headings on the web page. <h1> indicates the most important heading whereas <h6> indicates the least important, use them in order.
+`<h1><h2><h3><h4><h5><h6>`: Headings on the web page. `<h1> indicates the most important heading whereas <h6>` indicates the least important, use them in order.
 
-## Content:
+### Content Tags:
 `<figcaption>`: Defines a caption for a photo image.
 
 `<figure>`: Applies markup to a photo image.
 
-## Inline Tags:
+### Inline Tags:
 
 `<a>`: An anchor link to another HTML document.
 
@@ -236,7 +232,7 @@ It contains additional links and content to the website.
 ```
 
 
-## Embedded content and media tags:
+### Embedded content and media tags:
 
 `<audio>`: Used to embed audio in web pages.
 
@@ -293,9 +289,7 @@ Defines the caption of a table element.
 
 
 ```
-## Table:
-
-
+### Table:
 
 ```html
 <table>
@@ -321,3 +315,8 @@ Defines the caption of a table element.
 </table>
 
 ```
+
+<figure>
+    <img src="./assets/semantics.png" alt="Layout of a simple website">
+    <figcaption>Layout of a simple website.</figcaption>
+</figure>
