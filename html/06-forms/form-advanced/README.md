@@ -64,7 +64,8 @@ For instance, giving an option to the user which theme they want, we can use rad
 Displays a submit button to submit the values to the source that is specified in form's action attributed;Once clicked, the data will be submitted there.
 
 ```html
-
+    <label for="submit">submit</label>
+    <input type="submit" value="">
 ```
 ##### 4. Password:
 Defines a text field whose value is hidden because of its nature being a secretive data.
@@ -135,6 +136,7 @@ It allows to enter a week
 It lets us to enter a number and using attributes such as min and max values we can specify number of values we are allowing to be entered.
 
 ```html
+    <input type="number" name="number" id="number" min="0" max="10">
 
 ```
 ##### 12. Tel:
@@ -158,3 +160,22 @@ It allows us to enter a url
 <label for="homepage">Add your homepage:</label>
 <input type="url" id="homepage" name="homepage">
 ```
+##### 14. Range:
+It allows us to enter a choose a number in a range of two numbers.
+
+```html
+<label for="homepage">Add your homepage:</label>
+<input type="url" id="homepage" name="homepage">
+```
+##### 14. Reset:
+It allows to reset the from values to its default values.
+
+```html
+<label for="homepage">Add your homepage:</label>
+<input type="url" id="homepage" name="homepage">
+```
+
+
+
+
+<img src="./assets/inputs.svg" alt="input fields">
