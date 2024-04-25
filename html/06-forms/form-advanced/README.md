@@ -178,4 +178,5 @@ It allows to reset the from values to its default values.
 
 
 
+<img src="./assets/input_diagram.png" alt="input fields">
 <img src="./assets/inputs.svg" alt="input fields">
