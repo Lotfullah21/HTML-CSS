@@ -1,0 +1,39 @@
+body {
+	background-color: rgb(42, 38, 38);
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 5rem auto;
+	border: 2px solid rgb(140, 135, 135);
+}
+
+.box {
+	padding: 30px 0px;
+	text-align: center;
+	font-size: 2rem;
+	flex: 0 0 calc(20% - 1rem);
+	text-transform: capitalize;
+	color: white;
+	margin: 1rem;
+}
+
+.box-1 {
+	background: rgb(81, 27, 138);
+	flex: 0.8 1 auto;
+}
+.box-2 {
+	background: rgb(102, 157, 9);
+}
+.box-3 {
+	background: rgb(65, 37, 12);
+}
+
+.box-4 {
+	background: rgb(123, 14, 94);
+}
+.box-5 {
+	background: rgb(162, 155, 147);
+}
