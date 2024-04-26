@@ -67,14 +67,14 @@ Following values are there in `flex-direction`:
 - column: main axis is cross axis from top to bottom which means the elements will be from top to bottom.
 - row-reverse: elements are aligned from right to left.
 - column-reverse: elements ara aligned from bottom to top.
-  <figure>
+<figure>
   <img
   				src="./assets/container.png"
   				alt="description of row direction"
   				height="120"
   				width="480" />
   <figcaption>flex direction row reverse</figcaption>
-  </figure>
+  </figure></br>
   <figure>
   <img
   				src="./assets/row-rev.png"
@@ -82,7 +82,7 @@ Following values are there in `flex-direction`:
   				height="120"
   				width="480" />
   <figcaption>flex direction row reverse</figcaption>
-  </figure>
+  </figure></br>
   <figure>
   <img
   				src="./assets/col.png"
@@ -90,12 +90,13 @@ Following values are there in `flex-direction`:
   				height="480"
   				width="140" />
   <figcaption>flex direction column</figcaption>
-  </figure>
+  </figure></br>
   <figure>
   <img
-  				src="./assets/col-rev.png"
+  	src="./assets/col-rev.png"
   				alt="flex direction reverse column"
   				height="480"
   				width="140" />
   <figcaption>flex direction reverse column</figcaption>
   </figure>
+
