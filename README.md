@@ -67,6 +67,7 @@ Few good extension to have
 - prettier: <a href="https://marketplace.visualstudio.com/items?itemName=esbenp prettier-vscode">prettier</a>
 - highlights Matching: <a href="https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag">highlights matching</a>
 - indent rainbow: <a href="https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow">ident rainbow</a>
+  If formatter still does't work after installing, go to Settings (comman+, or ctr+,) and search for "Format On Save" and enable it and save it.
 
 ## Usage
 

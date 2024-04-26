@@ -1,0 +1,26 @@
+main {
+	text-align: center;
+	margin: 8rem auto;
+}
+
+fieldset {
+	margin: 2rem auto;
+}
+
+button {
+	margin: 2rem auto;
+	background: beige;
+	border: none;
+	color: white;
+	background: black;
+	padding: 0.5rem 0.4rem;
+	letter-spacing: 1px;
+	font-size: 1.04rem;
+	cursor: pointer;
+}
+
+button:hover {
+	color: red;
+	background: rgb(22, 9, 9);
+	transition: 0.9;
+}
