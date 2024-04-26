@@ -7,11 +7,12 @@ body {
 	align-items: center;
 	justify-content: space-around;
 	margin: 5rem auto;
+	flex-direction: row-reverse;
 	border: 2px solid rgb(140, 135, 135);
 }
 
 .box {
-	padding: 30px 0px;
+	padding: 2rem 1rem;
 	text-align: center;
 	font-size: 2rem;
 	flex: 0 0 calc(20% - 1rem);
