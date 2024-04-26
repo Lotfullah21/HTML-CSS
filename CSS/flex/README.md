@@ -68,13 +68,10 @@ Following values are there in `flex-direction`:
 - row-reverse: elements are aligned from right to left.
 - column-reverse: elements ara aligned from bottom to top.
 <figure>
-  <img
-  				src="./assets/container.png"
-  				alt="description of row direction"
-  				height="120"
-  				width="480" />
-  <figcaption>flex direction row reverse</figcaption>
-  </figure></br>
+<img src="./assets/container.png" alt="description of row direction" height="120" width="480" />
+  <figcaption>flex direction row (default)</figcaption>
+  </figure>
+  </br>
   <figure>
   <img
   				src="./assets/row-rev.png"
