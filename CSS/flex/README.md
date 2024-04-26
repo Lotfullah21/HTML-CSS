@@ -20,6 +20,7 @@ If the row is the main axis, the items start from top left and continues until t
 
 # Flex Box Properties
 
+
 <img src="./assets/container.png" alt="container along with its children"
 width="360" height="120">
 
@@ -96,4 +97,7 @@ Following values are there in `flex-direction`:
   				width="140" />
   <figcaption>flex direction reverse column</figcaption>
   </figure>
+
+<img src="./assets/container.jpeg" alt="container along with its children"
+width="660" height="120">
 
