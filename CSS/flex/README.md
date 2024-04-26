@@ -21,4 +21,4 @@ If the row is the main axis, the items start from top left and continues until t
 ### Flex Box Properties
 
 <img src="./assets/container.jpeg" alt="container along with its children"
-width="360" height="120">
+width="660" height="120">
