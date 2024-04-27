@@ -12,7 +12,7 @@ If it is not mentioned, default value is horizontal from left to right:
 Following values can be assigned to `flex-direction` property:
 
 - `row`: default; main axis is horizontal axis from left to right along the main.
-  <figure>
+  <figure>.
   <img src="../assets/direction/container.png" alt="description of row direction" height="120" width="480" />
   </figure>.
 - `column`: main axis is cross axis from top to bottom which means the elements will be from top to bottom.
