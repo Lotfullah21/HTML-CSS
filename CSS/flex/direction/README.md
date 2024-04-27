@@ -9,12 +9,26 @@ The main idea behind the flex layout is to give the container the ability to alt
 This defines the mains, in another words the way children are going to aligned, either horizontally or vertically.
 If it is not mentioned, default value is horizontal from left to right:
 
+```css
+.container {
+	display: flex;
+	/* create a new line if the contents dose not fit */
+	flex-wrap: wrap-reverse;
+}
+.box {
+	text-align: center;
+	font-size: 2.9rem;
+	padding: 2rem 3rem;
+	color: white;
+}
+```
+
 Following values can be assigned to `flex-direction` property:
 
 -`row`: default; main axis is horizontal axis from left to right along the main.
 
   <figure>.
-  <img src="../assets/direction/container.png" alt="description of row direction" height="140" width="520" />
+  <img src="../assets/direction/row.png" alt="description of row direction" height="140" width="520" />
   </figure>
 - `column`: main axis is cross axis from top to bottom which means the elements will be from top to bottom.
   <figure>
