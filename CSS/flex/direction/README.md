@@ -26,5 +26,5 @@ Following values can be assigned to `flex-direction` property:
   </figure>
 - `column-reverse`: elements ara aligned from bottom to top.
   <figure>
-  <img src="../assets/direction/col-rev.png" alt="flex direction reverse column" height="140" width="140" />
+  <img src="../assets/direction/col-rev.png" alt="flex direction reverse column" height="520" width="140" />
   </figure>
