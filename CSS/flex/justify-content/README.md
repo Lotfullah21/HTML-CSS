@@ -34,7 +34,7 @@ It can take the following values:
 <img src="../assets/justify-content/around.png" alt="justify content value around" height="105" width="720" />
 </figure>
  
- -`space-evenly`: Items are placed in such a way that spaces between any of the element are equal.
+-`space-evenly`: Items are placed in such a way that spaces between any of the element are equal.
 
  <figure>
 <img src="../assets/justify-content/even.png" alt="justify content value evenly" height="105" width="720" />
