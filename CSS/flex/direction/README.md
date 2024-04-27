@@ -27,7 +27,7 @@ Following values can be assigned to `flex-direction` property:
 
 -`row`: default; main axis is horizontal axis from left to right along the main.
 
-  <figure>.
+  <figure>
   <img src="../assets/direction/row.png" alt="description of row direction" height="100" width="740" />
   </figure>
 - `column`: main axis is cross axis from top to bottom which means the elements will be from top to bottom.
@@ -40,5 +40,5 @@ Following values can be assigned to `flex-direction` property:
   </figure>
 - `column-reverse`: elements ara aligned from bottom to top.
   <figure>
-  <img src="../assets/direction/col-rev.png" alt="flex direction reverse column" height="300" width="600" />
+  <img src="../assets/direction/col-rev.png" alt="flex direction reverse column" height="280" width="600" />
   </figure>
