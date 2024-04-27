@@ -86,7 +86,7 @@ The flex-basis sets the initial size of the container.
 }
 ```
 
-## flex:
+## 4. Flex:
 
 It combines all other three properties into one and the order will be as follow:
 
@@ -102,7 +102,7 @@ The default value is `flex: 0 1 auto`.
 }
 ```
 
-## align-self:
+## 5. Align-self:
 
 It applies a specific rule for an individual element, for instance if we put for box-3 `align-self:center`, then the box 3 will be out of normal flow and will be place at the center.
 
