@@ -9,25 +9,21 @@ The main idea behind the flex layout is to give the container the ability to alt
 This defines the mains, in another words the way children are going to aligned, either horizontally or vertically.
 If it is not mentioned, default value is horizontal from left to right:
 
-Following values are there in `flex-direction`:
+Following values can be assigned to `flex-direction` property:
 
-- row: default; main axis is horizontal axis from left to right along the mai.
-<figure>
-<img src="../assets/direction/container.png" alt="description of row direction" height="120" width="480" />
-<figcaption>flex-direction: row (default)</figcaption>
-</figure> </br>
-- column: main axis is cross axis from top to bottom which means the elements will be from top to bottom.
-<figure>
-<img src="../assets/direction/col.png" alt="description of block level elements" height="480" width="140" />
-<figcaption>flex direction column</figcaption>
-</figure></br>
-- row-reverse: elements are aligned from right to left.
+- `row`: default; main axis is horizontal axis from left to right along the main.
+- <figure>
+  <img src="../assets/direction/container.png" alt="description of row direction" height="120" width="480" />
+  </figure> </br>
+- `column`: main axis is cross axis from top to bottom which means the elements will be from top to bottom.
+- <figure>
+- <img src="../assets/direction/col.png" alt="description of block level elements" height="480" width="140" />
+- </figure></br>
+- `row-reverse`: elements are aligned from right to left.
 - <figure>
   <img src="../assets/direction/row-rev.png" alt="flex direction row reverse" height="120" width="480" />
-  <figcaption>flex direction row reverse</figcaption>
   </figure></br>
-- column-reverse: elements ara aligned from bottom to top.
+- `column-reverse`: elements ara aligned from bottom to top.
 <figure>
 <img src="../assets/direction/col-rev.png" alt="flex direction reverse column" height="480" width="140" />
-<figcaption>flex direction reverse column</figcaption>
 </figure>
