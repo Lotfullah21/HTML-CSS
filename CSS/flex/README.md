@@ -130,5 +130,5 @@ By default flex items tries to stay and fit in one line, but it this property ca
 </figure></br>
 <figure style="margin:0px">
 <img src="./assets/col-rev.png" alt="flex direction reverse column" height="480" width="140" />
-<figcaption style="margin-top:-5px;">flex direction reverse column</figcaption>
+<figcaption style="margin-top:0.1px;">flex direction reverse column</figcaption>
 </figure>
