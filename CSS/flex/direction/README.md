@@ -9,6 +9,18 @@ The main idea behind the flex layout is to give the container the ability to alt
 This defines the mains, in another words the way children are going to aligned, either horizontally or vertically.
 If it is not mentioned, default value is horizontal from left to right:
 
+```html
+<body>
+	<!-- Parent -->
+	<div class="container">
+		<!-- Children -->
+		<div class="box box-1">item-1</div>
+		<div class="box box-2">item-2</div>
+		<div class="box box-3">item-3</div>
+	</div>
+</body>
+```
+
 ```css
 .container {
 	display: flex;
@@ -32,7 +44,7 @@ Following values can be assigned to `flex-direction` property:
   </figure>
 - `column`: main axis is cross axis from top to bottom which means the elements will be from top to bottom.
   <figure>
-  <img src="../assets/direction/col.png" alt="description of block level elements" height="300" width="600" />
+  <img src="../assets/direction/col.png" alt="description of block level elements" height="270" width="600" />
   </figure>
 - `row-reverse`: elements are aligned from right to left.
   <figure>
@@ -40,5 +52,5 @@ Following values can be assigned to `flex-direction` property:
   </figure>
 - `column-reverse`: elements ara aligned from bottom to top.
   <figure>
-  <img src="../assets/direction/col-rev.png" alt="flex direction reverse column" height="280" width="600" />
+  <img src="../assets/direction/col-rev.png" alt="flex direction reverse column" height="270" width="600" />
   </figure>
