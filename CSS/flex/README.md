@@ -118,15 +118,15 @@ By default flex items tries to stay and fit in one line, but it this property ca
 
 <figure style="margin:0px">
 <img src="./assets/container.png" alt="description of row direction" height="120" width="480" />
-<figcaption>flex-wrap: no wrap (default)</figcaption>
+<figcaption style="margin-top:0.1px;">flex-wrap: no wrap (default)</figcaption>
 </figure> 
 <figure style="margin:0px">
 <img src="./assets/row-rev.png" alt="flex direction row reverse" height="120" width="480" />
-<figcaption>flex direction row reverse</figcaption>
+<figcaption style="margin-top:0.1px;">flex direction row reverse</figcaption>
 </figure>
 <figure style="margin:0px">
 <img src="./assets/col.png" alt="description of block level elements" height="480" width="140" />
-<figcaption>flex direction column</figcaption>
+<figcaption style="margin-top:0.1px;">flex direction column</figcaption>
 </figure>
 <figure style="margin:0px">
 <img src="./assets/col-rev.png" alt="flex direction reverse column" height="480" width="140" />
