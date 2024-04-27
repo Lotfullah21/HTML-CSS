@@ -16,15 +16,15 @@ Following values can be assigned to `flex-direction` property:
 -`wrap`: Wraps the elements across multiple lines after certain point.
 
   <figure>
-  <img src="../assets/wrap/wrap.png" alt="description of row direction" height="100" width="740" />
+  <img src="../assets/wrap/wrap.png" alt="description of row direction" height="220" width="740" />
   </figure>
 
 -`nowrap`: Default value and fits all the element across main axis.
 
   <figure>
-  <img src="../assets/wrap/nowrap.png" alt="description of block level elements" height="270" width="600" />
+  <img src="../assets/wrap/nowrap.png" alt="description of block level elements" height="120" width="600" />
   </figure>
 -`wrap-reverse`: Wraps the element from bottom to top.
   <figure>
-  <img src="../assets/wrap/wrap-rev.png" alt="flex direction row reverse" height="100" width="740" />
+  <img src="../assets/wrap/wrap-rev.png" alt="flex direction row reverse" height="220" width="740" />
   </figure>
