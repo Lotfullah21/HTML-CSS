@@ -12,7 +12,6 @@ body {
 	align-content: space-between;
 	align-content: space-around;
 	align-content: space-evenly;
-	align-content: stretch;
 	border: 2px rgb(50, 255, 255) solid;
 }
 .box {
