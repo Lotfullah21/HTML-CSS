@@ -6,7 +6,7 @@ It can take the following values.
 
 1. `flex-start`: Items are placed at the beginning of the container.
 <figure>
-<img src="../assets/justify-content/start.png" alt="flex direction reverse column" height="110" width="920" />
+<img src="../assets/justify-content/start.png" alt="flex direction reverse column" height="120" width="720" />
 </figure>
 
 1. `flex-end`: Items are aligned at the end of the container.
