@@ -20,6 +20,7 @@ If the row is the main axis, the items start from top left and continues until t
 
 # Flex Box Properties
 
+
 <img src="./assets/container.png" alt="container along with its children"
 width="360" height="120">
 
@@ -97,6 +98,7 @@ Following values are there in `flex-direction`:
   <figcaption>flex direction reverse column</figcaption>
   </figure>
 
+
 ## 2. flex-wrap:
 
 By default flex items tries to stay and fit in one line, but it this property can be changes by using different values for `flex-wrap` property.
@@ -130,3 +132,7 @@ By default flex items tries to stay and fit in one line, but it this property ca
 <img src="./assets/col-rev.png" alt="flex direction reverse column" height="480" width="140" />
 <figcaption>flex direction reverse column</figcaption>
 </figure>
+=======
+<img src="./assets/container.jpeg" alt="container along with its children"
+width="660" height="120">
+
