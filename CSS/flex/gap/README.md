@@ -18,23 +18,23 @@ This property can be added using four ways.
 `row-gap:30px`: Applies `30px` gap between elements row-wise.
 
 <figure>
-<img src="../assets/gap/row.png" alt="gaps between the rows" height="370" width="720" />
+<img src="../assets/gap/row.png" alt="gaps between the rows" height="350" width="820" />
 </figure>
 
 `colum-gap:30px`: Applies `30px` gap between the columns.
 
 <figure>
-<img src="../assets/gap/column.png" alt="gaps between the rows" height="370" width="720" />
+<img src="../assets/gap/column.png" alt="gaps between the rows" height="350" width="820" />
 </figure>
 
 `gap: 20px 40px`: Applies `20px` row gap and `40px` column gap.
 
 <figure>
-<img src="../assets/gap/gap-both.png" alt="gaps between the rows and columns" height="370" width="720" />
+<img src="../assets/gap/gap-both.png" alt="gaps between the rows and columns" height="350" width="820" />
 </figure>
  
 `gap:30px`: Applies `30px` gap row-wise and column-wise between the container elements.
 
 <figure>
-<img src="../assets/gap/gap.png" alt="gaps applied to rows and columns" height="370" width="720" />
+<img src="../assets/gap/gap.png" alt="gaps applied to rows and columns" height="350" width="820" />
 </figure>
