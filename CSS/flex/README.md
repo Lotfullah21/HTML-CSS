@@ -20,6 +20,7 @@ If the row is the main axis, the items start from top left and continues until t
 
 # Flex Box Properties
 
+
 <img src="./assets/container.png" alt="container along with its children"
 width="360" height="120">
 
@@ -55,3 +56,4 @@ If the display is not flex, how will it look?
 <img src="./assets/block.png" alt="description of block level elements" height="220" width="480" />
 <figcaption>block level elements without display flex property</figcaption>
 </figure>
+
