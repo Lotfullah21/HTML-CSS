@@ -61,6 +61,7 @@ Following values can be assigned to `flex-direction` property:
   <figure>
   <img src="../assets/wrap/nowrap.png" alt="description of block level elements" height="120" width="600" />
   </figure>
+  
 -`wrap-reverse`: Wraps the element from bottom to top.
   <figure>
   <img src="../assets/wrap/wrap-rev.png" alt="flex direction row reverse" height="240" width="700" />
