@@ -1,9 +1,0 @@
-/* div is used to group multiple elements */
-/* span is used to group inline elements */
-#greeting{
-    background-color: dimgrey;
-}
-
-span{
-    background-color: rebeccapurple;
-}
