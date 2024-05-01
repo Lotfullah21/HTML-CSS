@@ -1,0 +1,35 @@
+.row {
+	display: flex;
+	color: white;
+	align-items: stretch;
+}
+
+.label {
+	color: black;
+	font-weight: 600;
+	flex: 0 0 auto;
+}
+
+.container {
+	flex: 1;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.course {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.python {
+	background: red;
+}
+
+.dl {
+	background: green;
+}
+
+.web-dev {
+	background: blue;
+}
