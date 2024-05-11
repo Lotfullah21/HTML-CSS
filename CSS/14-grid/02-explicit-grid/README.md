@@ -24,6 +24,8 @@ The first two rows will have the height specified earlier, but remaining ones wi
 
 <p align="center">Explicit grid layout rows applied for all</p>
 
+We can have specific height for all of them as well, lets say we want `55px 20px 40px 70px 40px;` for each of the rows respectively, just add them.
+
 ```css
 .container{
     display: grid,
@@ -31,8 +33,6 @@ The first two rows will have the height specified earlier, but remaining ones wi
 }
 
 ```
-
-We can have specific height for all of them as well, lets say we want `55px 20px 40px 70px 40px;` for each of the rows respectively, just add them.
 
 ![Explicit grid layout rows applied for all](../assets/temp-rows-all.png)
 
