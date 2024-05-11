@@ -38,5 +38,5 @@ We can have specific height for all of them as well, lets say we want `55px 20px
 <figure>
 <img src="../assets/temp-rows-all.png" alt="Explicit grid layout rows applied for all" height="320" width="720" />
  
-<figcaption style="text-align:center">Explicit grid layout rows applied for all</figcaption>
+<p align="center">Explicit grid layout rows applied for all</p>
 </figure>
