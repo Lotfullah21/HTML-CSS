@@ -23,7 +23,7 @@ Lets Explore with some examples:
 `grid-template-columns: 0.25fr minmax(100px, 50%) 0.5fr;`: It specifies there is going to be 3 columns, the first column will take 0.25 fraction of available space, the second column will occupy at least `200px` of the container and can go up to `50%` of container, but not less than `200px` and the last column will take `0.5` fraction of the available space.
 
 <figure> 
-<img src="../assets/minmax.png" alt="grid minmax function" height="340" width="1192" />
+<img src="../assets/minmax.png" alt="grid minmax function" height="330" width="1192" />
 <figcaption><p align="center">grid mimax function</p></figcaption>
 </figure>
 
