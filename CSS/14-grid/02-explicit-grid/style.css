@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	display: grid;
+	grid-template-rows: 30px 50px 70px 60px 20px;
+}
+
+.cell {
+	color: white;
+	font-size: 1.1rem;
+	font-size: 1.2rem;
+	display: grid;
+	place-items: center;
+}
+
+.cell-1 {
+	background: rgb(199, 0, 0);
+}
+
+.cell-2 {
+	background: rgb(0, 0, 0);
+}
+
+.cell-3 {
+	background: rgb(0, 64, 241);
+}
+
+.cell-4 {
+	background: rgb(29, 247, 0);
+}
+
+.cell-5 {
+	background: rgb(227, 102, 0);
+}
