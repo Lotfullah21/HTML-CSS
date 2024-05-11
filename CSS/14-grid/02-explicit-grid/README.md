@@ -44,6 +44,8 @@ It represents fraction of remaining space when combined with other units.
 
 For instance if `grid-template-row: 20px 30px 40x 1fr 1fr;`, it means that first three rows will take as much space as its mentioned, but remaining space will be divide to two last rows, one fraction each.
 
+Among all, fraction is the most widely used unit here when we want to create responsive layouts.
+
 #### `grid-template-columns:value1 value2 value3 .... `
 
 It creates a column track for each value specified in `grid-template-columns` .
@@ -77,7 +79,24 @@ Lets say, we want to create a layout that has two rows columns, each 150px and f
 
 <figure> 
 <img src="../assets/repeat.png" alt="grid repeat function" height="300" width="660" />
-<p align=center>grid repeat function</p>
+<p>grid repeat function</p>
 </figure>
 
 !Important: If there is mismatch between number of elements and the number of cols/rows we specified in `grid-template-columns/rows` property, based on css rule, the last one will be followed. For instance in the above example if we specify to have 100 rows, but there is only 5 elements, it will not create 100 rows, It will follow what is mentioned in the next line which is four columns.
+
+Now, lets say we are having 10 items and we want to first column to have width of `100px` and the second column consist of three cells each having a width of `180px` and the last column to be free, which means take the remaining space.
+
+How would you divide it?
+
+```css
+.container {
+	display: grid;
+	grid-template-rows: repeat(2, 120px);
+	grid-template-columns: 100px repeat(3, 180px) 1fr;
+}
+```
+
+<figure> 
+<img src="../assets/repeat-fr.png" alt="grid repeat function" height="320" width="1260" />
+<p align="center">grid repeat function</p>
+</figure>
