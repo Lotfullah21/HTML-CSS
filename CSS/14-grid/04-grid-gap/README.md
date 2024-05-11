@@ -35,7 +35,7 @@ It creates vertical gap between the elements, or in another words, between the r
 ```
 
 <figure> 
-<img src="../assets/gap/row-gap.png" alt="grid gutter" height="420" width="1192" />
+<img src="../assets/gap/row-gap.png" alt="grid gutter" height="430" width="1192" />
 <figcaption><p align="center">grid gutters</p></figcaption>
 </figure>
 
@@ -54,7 +54,7 @@ It creates vertical gap between the elements, or in another words, between the r
 ```
 
 <figure> 
-<img src="../assets/gap/row-col.png" alt="grid gutter in both directions" height="420" width="1192" />
+<img src="../assets/gap/row-col.png" alt="grid gutter using row and column" height="440" width="1192" />
 <figcaption><p align="center">grid gutters</p></figcaption>
 </figure>
 
@@ -78,11 +78,11 @@ Both of the gaps can be added for a single container with different elements.
 ```
 
 <figure> 
-<img src="../assets/gap/gap.png" alt="grid gutter using gap property" height="420" width="1192" />
+<img src="../assets/gap/gap.png" alt="grid gutter using row and column" height="360" width="1192" />
 <figcaption><p align="center">grid gutters</p></figcaption>
 </figure>
 
-2. ### `gap: row-column-gap`:
+1. ### `gap: row-column-gap`:
 
 Just one value, will be sufficient. It is used when we want same gap between rows and columns.
 
@@ -96,6 +96,6 @@ Just one value, will be sufficient. It is used when we want same gap between row
 ```
 
 <figure> 
-<img src="../assets/gap/gap.png" alt="grid gutter using gap property" height="420" width="1192" />
+<img src="../assets/gap/gap.png" alt="grid gutter using gap property" height="360" width="1192" />
 <figcaption><p align="center">grid gutters</p></figcaption>
 </figure>
