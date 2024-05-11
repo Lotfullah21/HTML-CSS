@@ -17,7 +17,7 @@ It creates a horizontal distance between the elements. these distance will not b
 ```
 
 <figure> 
-<img src="../assets/gap/col-gap.png" alt="grid gutter" height="420" width="1192" />
+<img src="../assets/gap/col-gap.png" alt="grid gutter" height="490" width="1192" />
 <figcaption><p align="center">grid gutters</p></figcaption>
 </figure>
 
