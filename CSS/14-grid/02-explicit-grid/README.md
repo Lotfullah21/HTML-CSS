@@ -1,6 +1,6 @@
-## Grid Explicit Properties:
+# Grid Explicit Properties:
 
-### `grid-template-rows:value1 value2 value3 .... `
+## `grid-template-rows:value1 value2 value3 .... `
 
 It allows us to create rows and columns using `grid-template-rows` and `grid-template-columns`.
 
@@ -46,7 +46,7 @@ For instance if `grid-template-row: 20px 30px 40x 1fr 1fr;`, it means that first
 
 Among all, fraction is the most widely used unit here when we want to create responsive layouts.
 
-#### `grid-template-columns:value1 value2 value3 .... `
+## `grid-template-columns:value1 value2 value3 .... `:
 
 It creates a column track for each value specified in `grid-template-columns` .
 
