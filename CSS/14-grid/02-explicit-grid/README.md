@@ -20,10 +20,9 @@ Lets say we are having five `div` elements and we want the first two row to have
 
 The first two rows will have the height specified earlier, but remaining ones will get what their values are.
 
-<figure>
-<img src="../assets/temp-rows.png" alt="explicit grid layout" height="320" width="720" />
-<figcaption>Explicit grid layout</figcaption>
-</figure>
+![Explicit grid layout rows applied for all](../assets/temp-rows-all.png)
+
+<p align="center">Explicit grid layout rows applied for all</p>
 
 ```css
 .container{
