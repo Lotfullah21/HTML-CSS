@@ -98,5 +98,6 @@ How would you divide it?
 
 <figure> 
 <img src="../assets/repeat-fr.png" alt="grid repeat function" height="280" width="1260" />
-<p align="center">grid repeat function</p>
+<figcaption><p align="center">grid repeat function</p></figcaption>
+
 </figure>
