@@ -3,9 +3,9 @@
 the gap between columns and rows are known as gutters.
 Using two properties `column-gap` and `row-gap`, the gap between columns and rows can be created respectively.
 
-### column-gap:
+### `column-gap`:
 
-It creates a horizontal distance between the elements. these distance will not be applied to the edges.
+It creates a horizontal distance between the elements. these distances will not be applied to the edges.
 
 ```css
 .container {
@@ -21,9 +21,9 @@ It creates a horizontal distance between the elements. these distance will not b
 <figcaption><p align="center">grid gutters</p></figcaption>
 </figure>
 
-### row-gap:
+### `row-gap`:
 
-It creates vertical gap between the elements, or in another words, between the rows inside a container.
+It creates a vertical gap between the elements, or in another words, between the rows inside a container.
 
 ```css
 .container {
@@ -41,7 +41,7 @@ It creates vertical gap between the elements, or in another words, between the r
 
 ### `row-gap, column-gap`:
 
-It creates vertical gap between the elements, or in another words, between the rows inside a container.
+It creates vertical and horizontal between the elements.
 
 ```css
 .container {
@@ -58,9 +58,9 @@ It creates vertical gap between the elements, or in another words, between the r
 <figcaption><p align="center">grid gutters</p></figcaption>
 </figure>
 
-### gap:
+### `gap`:
 
-A shorthand that is doing the same thing as `column` and `row-gap` does, combined!
+A shorthand that is doing the same thing as `column-gap` and `row-gap` does, combined!
 
 It can be used in two ways:
 
