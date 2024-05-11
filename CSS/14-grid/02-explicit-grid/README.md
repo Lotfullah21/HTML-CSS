@@ -77,7 +77,8 @@ Lets say, we want to create a layout that has two rows columns, each 150px and f
 
 <figure>
 <img src="../assets/repeat.png" alt="grid repeat function" height="320" width="660" />
-<p>grid columns property</p>
+<p style="text-align:center">grid repeat function</p>
+<p align=center>grid repeat function</p>
 </figure>
 
 !Important: If there is mismatch between number of elements and the number of cols/rows we specified in `grid-template-columns/rows` property, based on css rule, the last one will be followed. For instance in the above example if we specify to have 100 rows, but there is only 5 elements, it will not create 100 rows, It will follow what is mentioned in the next line which is four columns.
