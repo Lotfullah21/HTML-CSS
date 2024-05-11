@@ -11,7 +11,7 @@ CSS grid is a powerful tool that helps us to create two-dimensional layout.
 A css grid container can be created by simply adding display: grid property to the css.
 
 <figure>
-<img src="./assets/grid.png" alt="grid default container" height="105" width="720" />
+<img src="./assets/grid.png" alt="grid default container" height="420" width="720" />
 <figcaption>Grid normal flow</figcaption>
 </figure>
 

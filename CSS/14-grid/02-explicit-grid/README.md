@@ -23,7 +23,7 @@ The first two rows will have the height specified earlier, but remaining ones wi
 We can have specific height for all of them as well, lets say we want `30px 50px 70px 60px 20px` for each of the rows respectively, just add them.
 
 <figure>
-<img src="../assets/temp-rows.png" alt="explicit grid layout" height="105" width="720" />
+<img src="../assets/temp-rows.png" alt="explicit grid layout" height="420" width="720" />
 <figcaption>Explicit grid layout</figcaption>
 </figure>
 
@@ -36,6 +36,6 @@ We can have specific height for all of them as well, lets say we want `30px 50px
 ```
 
 <figure>
-<img src="../assets/temp-rows-all.png" alt="explicit grid layout" height="105" width="720" />
+<img src="../assets/temp-rows-all.png" alt="explicit grid layout" height="420" width="720" />
 <figcaption>Explicit grid layout</figcaption>
 </figure>
