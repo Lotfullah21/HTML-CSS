@@ -75,9 +75,8 @@ Lets say, we want to create a layout that has two rows columns, each 150px and f
 }
 ```
 
-<figure>
-<img src="../assets/repeat.png" alt="grid repeat function" height="320" width="660" />
-<p style="text-align:center">grid repeat function</p>
+<figure> 
+<img src="../assets/repeat.png" alt="grid repeat function" height="300" width="660" />
 <p align=center>grid repeat function</p>
 </figure>
 
