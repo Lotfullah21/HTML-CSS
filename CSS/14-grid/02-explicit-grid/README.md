@@ -18,7 +18,7 @@ Lets say we are having five `div` elements and we want the first two row to have
 
 ```
 
-The first two rows will have the height specified earlier, but remaining ones will get what their values are.
+The first two rows will have the height of `50px` and `150px` respectively, but remaining ones will go with their normal flow.
 
 ![Explicit grid layout rows applied for all](../assets/temp-rows.png)
 
@@ -45,6 +45,18 @@ It represents fraction of remaining space when combined with other units.
 For instance if `grid-template-row: 20px 30px 40x 1fr 1fr;`, it means that first three rows will take as much space as its mentioned, but remaining space will be divide to two last rows, one fraction each.
 
 Among all, fraction is the most widely used unit here when we want to create responsive layouts.
+
+## Percentage(%):
+
+It takes a percentage of the container width/height.
+
+```css
+grid-template-columns: 20px 30px 25%;
+```
+
+It divides our container into three columns, first one occupies 20px, second one 30px and third one takes `25%` width of the container out of `100%`.
+
+For instance if the whole width is `200px`, then `25%` of this would be `50px`.
 
 ## `grid-template-columns:value1 value2 value3 .... `:
 

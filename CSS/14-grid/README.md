@@ -8,7 +8,9 @@ Layout helps us to organize the relevant content together.
 
 CSS grid is a powerful tool that helps us to create two-dimensional layout.
 
-A css grid container can be created by simply adding display: grid property to the css.
+A css grid container can be created by simply adding `display: grid` property to the css.
+
+But to see the effects,we need to have the parent(container) and children(cells).
 
 <figure>
 <img src="./assets/grid.png" alt="grid default container" height="560" width="920" />
