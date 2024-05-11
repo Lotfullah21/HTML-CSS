@@ -23,13 +23,13 @@ Lets Explore with some examples:
 `grid-template-columns: 0.25fr minmax(100px, 50%) 0.5fr;`: It specifies there is going to be 3 columns, the first column will take 0.25 fraction of available space, the second column will occupy at least `200px` of the container and can go up to `50%` of container, but not less than `200px` and the last column will take `0.5` fraction of the available space.
 
 <figure> 
-<img src="../assets/minmax.png" alt="grid minmax function" height="280" width="1260" />
-<figcaption><p align="center">grid repeat function</p></figcaption>
+<img src="../assets/minmax.png" alt="grid minmax function" height="340" width="1260" />
+<figcaption><p align="center">grid mimax function</p></figcaption>
 </figure>
 
 In the following image, it can be observed that the second row stretched because of its content size and the value we added for max-value in minmax() function was `auto`.
 
 <figure> 
-<img src="../assets/minmax-content.png" alt="grid minmax function" height="280" width="1260" />
-<figcaption><p align="center">grid minmax function</p></figcaption>
+<img src="../assets/minmax-content.png" alt="grid minmax function" height="380" width="1260" />
+<figcaption><p align="center">grid minmax function with content in second row.</p></figcaption>
 </figure>
