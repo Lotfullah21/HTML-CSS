@@ -20,8 +20,6 @@ Lets say we are having five `div` elements and we want the first two row to have
 
 The first two rows will have the height specified earlier, but remaining ones will get what their values are.
 
-We can have specific height for all of them as well, lets say we want `55px 20px 40px 70px 40px;` for each of the rows respectively, just add them.
-
 <figure>
 <img src="../assets/temp-rows.png" alt="explicit grid layout" height="320" width="720" />
 <figcaption>Explicit grid layout</figcaption>
@@ -35,7 +33,10 @@ We can have specific height for all of them as well, lets say we want `55px 20px
 
 ```
 
+We can have specific height for all of them as well, lets say we want `55px 20px 40px 70px 40px;` for each of the rows respectively, just add them.
+
 <figure>
-<img src="../assets/temp-rows-all.png" alt="explicit grid layout" height="320" width="720" />
-<figcaption>Explicit grid layout</figcaption>
+<img src="../assets/temp-rows-all.png" alt="Explicit grid layout rows applied for all" height="320" width="720" />
+ 
+<figcaption style="text-align:center">Explicit grid layout rows applied for all</figcaption>
 </figure>
