@@ -62,10 +62,10 @@ For instance if we have `grid-template-rows: 170px 200px 100px;`, it means that 
 <p>grid columns property</p>
 </figure>
 
-### repeat:
+## repeat():
 
 It is a function that allows us to create columns and rows easily with specified values.
-This is useful when we want to crete many rows or columns that are having the same values.
+This is useful when we want to create many rows or columns that are having the same values.
 
 Lets say, we want to create a layout that has two rows columns, each 150px and four columns each 200px.
 
@@ -84,7 +84,7 @@ Lets say, we want to create a layout that has two rows columns, each 150px and f
 
 !Important: If there is mismatch between number of elements and the number of cols/rows we specified in `grid-template-columns/rows` property, based on css rule, the last one will be followed. For instance in the above example if we specify to have 100 rows, but there is only 5 elements, it will not create 100 rows, It will follow what is mentioned in the next line which is four columns.
 
-Now, lets say we are having 10 items and we want to first column to have width of `100px` and the second column consist of three cells each having a width of `180px` and the last column to be free, which means take the remaining space.
+Now, lets say we are having 10 items and we want to first column to have width of `100px` and the second column consist of three cells each having a width of `180px` and the last column to be free, which means takes the remaining space.
 
 How would you divide it?
 
@@ -99,5 +99,4 @@ How would you divide it?
 <figure> 
 <img src="../assets/repeat-fr.png" alt="grid repeat function" height="280" width="1260" />
 <figcaption><p align="center">grid repeat function</p></figcaption>
-
 </figure>
