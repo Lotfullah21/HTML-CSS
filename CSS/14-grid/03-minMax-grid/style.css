@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	display: grid;
+	min-height: 50vh;
+	/* do not go below 200px for my 2nd column. */
+	grid-template-rows: minmax(200px, auto);
+	grid-template-columns: 0.25fr minmax(100px, 1fr) 0.5fr;
+}
+
+.cell {
+	color: white;
+	font-size: 1.1rem;
+	font-size: 1.2rem;
+	display: grid;
+	place-items: center;
+	border: 2px solid rgb(245, 245, 245);
+}
+
+.cell-1 {
+	background: rgb(199, 0, 0);
+}
+
+.cell-2 {
+	background: rgb(0, 0, 0);
+}
+
+.cell-3 {
+	background: rgb(0, 64, 241);
+}
+
+.cell-4 {
+	background: rgb(29, 247, 0);
+}
+
+.cell-5 {
+	background: rgb(227, 102, 0);
+}
+
+.cell-6 {
+	background: goldenrod;
+}
+
+.para {
+	padding: 2rem;
+}
