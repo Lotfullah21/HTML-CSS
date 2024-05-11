@@ -56,6 +56,6 @@ For instance, when we are have `grid-template-columns:150px, 150px` it divides o
 For instance if we have `grid-template-rows: 170px 200px 100px;`, it means that we want three rows in our layout, first one is having height of `170px`, second one is having height of `200px`, and the third one is having height of `100px`.
 
 <figure>
-<img src="../assets/temp-cols.png" alt="grid columns property" height="560" width="1120" />
+<img src="../assets/temp-cols.png" alt="grid columns property" height="460" width="1120" />
 <p>grid columns property</p>
 </figure>
