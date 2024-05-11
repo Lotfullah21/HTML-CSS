@@ -1,6 +1,6 @@
 # Units.
 
-## `grid-template-columns/rows:value1 value2 value3 .... `
+#### `grid-template-columns/rows:value1 value2 value3 .... `
 
 It allows us to create rows and columns using `grid-template-rows` and `grid-template-columns`.
 
@@ -65,4 +65,4 @@ But last column (`auto`), is responsive. It will take the remaining space of the
 
 ### Note:
 
-`auto` and `fraction` units are the two mostly used units while designing a responsive website.
+`auto` and `fraction` units are the two most widely used units while designing a responsive website.
