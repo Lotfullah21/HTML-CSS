@@ -59,3 +59,25 @@ For instance if we have `grid-template-rows: 170px 200px 100px;`, it means that 
 <img src="../assets/temp-cols.png" alt="grid columns property" height="420" width="660" />
 <p>grid columns property</p>
 </figure>
+
+### repeat:
+
+It is a function that allows us to create columns and rows easily with specified values.
+This is useful when we want to crete many rows or columns that are having the same values.
+
+Lets say, we want to create a layout that has two rows columns, each 150px and four columns each 200px.
+
+```css
+.container {
+	display: grid;
+	grid-template-rows: repeat(2, 150px);
+	grid-template-columns: repeat(4, 200px);
+}
+```
+
+<figure>
+<img src="../assets/repeat.png" alt="grid repeat function" height="320" width="660" />
+<p>grid columns property</p>
+</figure>
+
+!Important: If there is mismatch between number of elements and the number of cols/rows we specified in `grid-template-columns/rows` property, based on css rule, the last one will be followed. For instance in the above example if we specify to have 100 rows, but there is only 5 elements, it will not create 100 rows, It will follow what is mentioned in the next line which is four columns.
