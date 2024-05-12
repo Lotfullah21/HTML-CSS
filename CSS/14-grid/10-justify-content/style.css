@@ -7,13 +7,12 @@
 
 .container {
 	display: grid;
-	margin: 2rem;
-	grid-template-columns: repeat(3, 100px);
+	justify-content: space-evenly;
+	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(4, 100px);
-	border: 3px solid rgb(3, 1, 0);
 	min-height: 50vh;
 	max-width: 55vw;
-	justify-content: space-around;
+	border: 3px solid rgb(3, 1, 0);
 }
 
 .cell {
