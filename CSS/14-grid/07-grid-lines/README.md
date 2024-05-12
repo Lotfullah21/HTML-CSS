@@ -17,7 +17,7 @@ Use `command+shift+c` in macos, or `control+shift+c` in windows to open develope
 We can specify from which number to which number a particular children(cell) can span.
 
 <figure>
-<img src="../assets/grid-lines/lines.png" height="480" width="1192" alt="grid lines in dev tools">
+<img src="../assets/grid-lines/lines.png" height="640" width="762" alt="grid lines in dev tools">
 <figcaption>
 <p align="center">grid lines using developer tools.</p>
 </figcaption>
@@ -47,9 +47,9 @@ The value assigned to these properties represents the line numbers.
 ```
 
 <figure>
-<img src="../assets/grid-lines/col.png" height="480" width="1192" alt="grid lines in dev tools">
+<img src="../assets/grid-lines/col.png" height="580" width="762" alt="grid lines in dev tools">
 <figcaption>
-<p align="center">grid lines using developer tools.</p>
+<p align="center">grid lines using developer tools</p>
 </figcaption>
 </figure>
 
@@ -76,7 +76,7 @@ For instance if we want the cell-6 to span through out the rows.
 ```
 
 <figure>
-<img src="../assets/grid-lines/col-end.png" height="480" width="1192" alt="grid lines in dev tools">
+<img src="../assets/grid-lines/col-end.png" height="580" width="762" alt="grid lines in dev tools">
 <figcaption>
 <p align="center">grid lines using developer tools.</p>
 </figcaption>
@@ -97,8 +97,34 @@ For instance we want the first cell to take the the space of first column and wh
 ```
 
 <figure>
-<img src="../assets/grid-lines/row.png" height="480" width="1192" alt="grid lines in dev tools">
+<img src="../assets/grid-lines/row.png" height="620" width="762" alt="grid lines in dev tools">
 <figcaption>
 <p align="center">grid lines using developer tools.</p>
 </figcaption>
 </figure>
+
+## Note:
+
+There is a short cut to write `grid-row-start: 1; grid-row-end` in just one line and that is `grid-row:start-line/end-line`.
+For the above example, it can be written as
+
+```css
+.cell-7 {
+	background: rgb(199, 0, 0);
+	grid-row: 1/-1;
+}
+```
+
+Same goes with column lines.
+
+```css
+.cell-1 {
+	background: rgb(199, 0, 0);
+	grid-column: 1/3;
+}
+
+.cell-5 {
+	background-color: rgb(0, 170, 116);
+	grid-column-start: 2/5;
+}
+```
