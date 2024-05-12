@@ -85,5 +85,5 @@ When we are having four rows and three columns, the `grid-template-rows` and `gr
 ```
 
 <figure>
-<img src="../assets/grid-areas/area.png" height="640" width="862" alt="grid area">
+<img src="../assets/grid-areas/area.png" height="600" width="862" alt="grid area">
 </figure>
