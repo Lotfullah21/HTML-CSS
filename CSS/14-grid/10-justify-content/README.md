@@ -94,7 +94,7 @@ Container's space is evenly distributed between the columns and remaining space 
 
 ### 5. space-between:
 
-All the container's space is evenly distributed between the columns.
+The container's space is evenly distributed between the columns.
 
 ```css
 .container {
