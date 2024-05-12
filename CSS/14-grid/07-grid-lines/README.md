@@ -47,7 +47,7 @@ The value assigned to these properties represents the line numbers.
 ```
 
 <figure>
-<img src="../assets/grid-lines/col.png" height="480" width="1192" alt="grid lines in dev tools">
+<img src="../assets/grid-lines/col.png" height="580" width="762" alt="grid lines in dev tools">
 <figcaption>
 <p align="center">grid lines using developer tools.</p>
 </figcaption>
@@ -76,7 +76,7 @@ For instance if we want the cell-6 to span through out the rows.
 ```
 
 <figure>
-<img src="../assets/grid-lines/col-end.png" height="480" width="1192" alt="grid lines in dev tools">
+<img src="../assets/grid-lines/col-end.png" height="580" width="1192" alt="grid lines in dev tools">
 <figcaption>
 <p align="center">grid lines using developer tools.</p>
 </figcaption>
@@ -97,7 +97,7 @@ For instance we want the first cell to take the the space of first column and wh
 ```
 
 <figure>
-<img src="../assets/grid-lines/row.png" height="480" width="1192" alt="grid lines in dev tools">
+<img src="../assets/grid-lines/row.png" height="580" width="1192" alt="grid lines in dev tools">
 <figcaption>
 <p align="center">grid lines using developer tools.</p>
 </figcaption>
