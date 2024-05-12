@@ -17,7 +17,7 @@ Use `command+shift+c` in macos, or `control+shift+c` in windows to open develope
 We can specify from which number to which number a particular children(cell) can span.
 
 <figure>
-<img src="../assets/grid-lines/lines.png" height="630" width="762" alt="grid lines in dev tools">
+<img src="../assets/grid-lines/lines.png" height="640" width="762" alt="grid lines in dev tools">
 <figcaption>
 <p align="center">grid lines using developer tools.</p>
 </figcaption>
@@ -97,7 +97,7 @@ For instance we want the first cell to take the the space of first column and wh
 ```
 
 <figure>
-<img src="../assets/grid-lines/row.png" height="580" width="762" alt="grid lines in dev tools">
+<img src="../assets/grid-lines/row.png" height="620" width="762" alt="grid lines in dev tools">
 <figcaption>
 <p align="center">grid lines using developer tools.</p>
 </figcaption>
