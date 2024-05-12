@@ -95,7 +95,8 @@ It places even number of spaces between the rows in vertical direction and remai
 ```css
 .container {
 	display: grid;
-	align-content: space-around;
+	align-content: start;
+	align-items: start;
 	grid-template-columns: repeat(3, 100px);
 	grid-template-rows: repeat(4, 100px);
 	min-height: 50vh;
