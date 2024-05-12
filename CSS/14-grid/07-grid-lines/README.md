@@ -116,3 +116,15 @@ For the above example, it can be written as
 ```
 
 Same goes with column lines.
+
+```css
+.cell-1 {
+	background: rgb(199, 0, 0);
+	grid-column: 1/3;
+}
+
+.cell-5 {
+	background-color: rgb(0, 170, 116);
+	grid-column-start: 2/5;
+}
+```
