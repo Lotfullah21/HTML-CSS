@@ -31,7 +31,7 @@ It fills the whole width of the cell and it is the default value as well.
 ```
 
 <figure>
-<img src="../assets/justify-items/stretch.png" height="390" width="390" alt="stretch property">
+<img src="../assets/justify-items/stretch.png" height="380" width="380" alt="stretch property">
 <figcaption><p justify="center">justify items property with default value</p><figcaption>
 </figure>
 
@@ -48,7 +48,7 @@ Aligns contents to the starting edge of their cells.
 ```
 
 <figure>
-<img src="../assets/justify-items/start.png" height="390" width="862" alt="justify items property with start value">
+<img src="../assets/justify-items/start.png" height="380" width="862" alt="justify items property with start value">
 <figcaption><p justify="center">justify items property with start value</p><figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ Aligns content to the end edge of their cell.
 ```
 
 <figure>
-<img src="../assets/justify-items/end.png" height="390" width="962" alt="justify items property with end value">
+<img src="../assets/justify-items/end.png" height="380" width="862" alt="justify items property with end value">
 <figcaption><p justify="center">justify items property with start value</p><figcaption>
 </figure>
 
@@ -80,6 +80,6 @@ Aligns content to the center of their cell.
 ```
 
 <figure>
-<img src="../assets/justify-items/center.png" height="390" width="962" alt="justify items property with center value">
+<img src="../assets/justify-items/center.png" height="380" width="862" alt="justify items property with center value">
 <figcaption><p justify="center">justify items property with center value</p><figcaption>
 </figure>
