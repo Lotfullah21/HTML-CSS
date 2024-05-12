@@ -46,7 +46,7 @@ It pushes all grid tracks along horizontal axis to the right most side of the co
 ```
 
 <figure>
-<img src="../assets/justify-content/start.png" height="390" width="862" alt="justify content property with end value">
+<img src="../assets/justify-content/end.png" height="390" width="862" alt="justify content property with end value">
 <figcaption><p align="center">justify content property with start value</p><figcaption>
 </figure>
 
