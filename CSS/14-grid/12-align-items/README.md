@@ -76,13 +76,7 @@ Aligns content to the center of their cell.
 
 ```css
 .container {
-	display: grid;
 	align-items: center;
-	grid-template-columns: repeat(3, 100px);
-	grid-template-rows: repeat(4, 100px);
-	min-height: 50vh;
-	max-width: 55vw;
-	border: 3px solid rgb(3, 1, 0);
 }
 ```
 
@@ -94,6 +88,13 @@ Aligns content to the center of their cell.
 ### 4. baseline:
 
 It moves the content based on the baseline of the contents.
+
+```css
+.container {
+	display: grid;
+	align-items: baseline;
+}
+```
 
 <figure>
 <img src="../assets/align-items/baseline.png" height="390" width="962" alt="align items property with baseline value">
