@@ -105,7 +105,7 @@ For instance we want the first cell to take the the space of first column and wh
 
 ## Note:
 
-There is a short cut to write `grid-row-start: 1; grid-row-end` in just one line and that is `grid-row:start line/end line`.
+There is a short cut to write `grid-row-start: 1; grid-row-end` in just one line and that is `grid-row:start-line/end-line`.
 For the above example, it can be written as
 
 ```css
