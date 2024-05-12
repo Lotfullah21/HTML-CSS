@@ -1,76 +1,46 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-/* The box-sizing property allows us to include the padding and border in an element's total width and height. */
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-/* 
-  grid-template-columns:1fr 1fr 1fr;
-  grid-template-rows:1fr 1fr 1fr;
-*/
 
 .container {
-  display: grid;
-  grid-template-columns: [start]90px[end-of-col-1] 100px[end-of-col-2] 100px[end];
-  grid-template-rows: [start]90px 100px[end-of-row-2] 100px[end];
-  column-gap: 10px;
-  row-gap: 8px;
-  grid-gap: 30px;
-  gap: 32px 10px;
-  gap: 40px 10px;
-  border: 4px solid red;
-  margin: 5rem;
+	display: grid;
+	grid-template-columns: [start] 200px [col-1-end] 200px [col-2-end] 200px [col-3-end] 200px[end];
+	grid-template-rows: [start-row] 200px [row-1-end] 200px [row-2-end] 200px [row-3-end] 200px[end];
 }
 
 .cell {
-  text-transform: capitalize;
-  padding: 1.4rem;
-  font-size: large;
-  border: 2px dashed rgb(29, 29, 29);
-  color: white;
-  text-align: center;
-}
-
-.cell-6 {
-  background-color: rgb(221, 0, 255);
+	color: white;
+	font-size: 1.1rem;
+	display: grid;
+	place-items: center;
+	border: 2px solid rgb(245, 245, 245);
 }
 
 .cell-1 {
-  background-color: red;
-  /* rows starts from 2 and goes till the end of rows presesnt */
-  grid-row: 2/-1;
-  grid-column: 1/3;
+	background: rgb(199, 0, 0);
+	grid-column: start/col-3-end;
 }
+
 .cell-2 {
-  background-color: rgb(206, 152, 152);
-  grid-column-start: 3;
-  grid-column-end: -1;
-  grid-row-start: 2;
-  grid-row-end: -1;
+	background: rgb(14, 123, 0);
 }
+
 .cell-3 {
-  background-color: rgb(77, 255, 0);
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
+	background: rgb(0, 64, 241);
 }
 .cell-4 {
-  background-color: rgb(0, 255, 217);
-  grid-column: 1/3;
+	background: rgb(0, 0, 0);
 }
+
 .cell-5 {
-  background-color: rgb(47, 28, 255);
-  grid-column: start/end-of-col-2;
-  grid-row: end-of-row-2/end;
+	background-color: rgb(0, 170, 116);
+	grid-column-start: 2;
+	grid-column-end: 5;
 }
+
 .cell-6 {
-  background-color: rgb(221, 0, 255);
-}
-.cell-7 {
-  background-color: rgb(255, 221, 0);
+	background: rgb(227, 102, 0);
+	grid-row: row-1-end/row-3-end;
 }

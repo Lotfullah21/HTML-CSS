@@ -8,6 +8,8 @@ Column three starts with number 4 and ends with number 5.
 Same goes with rows, from top to bottom line numbers increases.
 There is negative number as well which starts with number -1 from right most, moving towards the left, it decreases by one number.
 
+Knowing these facts about grid lines, we can create appealing layouts.
+
 By using `developer` tools in browser of your choice, when clicking on the container these numbers can be seen clearly.
 
 Use `command+shift+c` in macos, or `control+shift+c` in windows to open developer tools.
