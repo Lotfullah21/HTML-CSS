@@ -63,7 +63,7 @@ It pushes all grid tracks along column or vertical axis to the bottom most of th
 ```
 
 <figure>
-<img src="../assets/align-content/end.png" height="420" width="562" alt="align content property with end value">
+<img src="../assets/align-content/end.png" height="420" width="400" alt="align content property with end value">
 <figcaption><p align="center">align content property with start value</p><figcaption>
 </figure>
 
@@ -84,7 +84,7 @@ It aligns all items vertically at the center.
 ```
 
 <figure>
-<img src="../assets/align-content/center.png" height="420" width="562" alt="align content property with center value">
+<img src="../assets/align-content/center.png" height="420" width="400" alt="align content property with center value">
 <figcaption><p align="center">align content property with center value</p><figcaption>
 </figure>
 
@@ -105,7 +105,7 @@ It places even number of spaces between the rows in vertical direction and remai
 ```
 
 <figure>
-<img src="../assets/align-content/around.png" height="420" width="562" alt="align content property with space-around value">
+<img src="../assets/align-content/around.png" height="420" width="400" alt="align content property with space-around value">
 <figcaption><p align="center">align content property with space-around value</p><figcaption>
 </figure>
 
