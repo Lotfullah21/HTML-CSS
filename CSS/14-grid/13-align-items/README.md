@@ -32,7 +32,7 @@ It fills the whole height of the cell.
 ```
 
 <figure>
-<img src="../assets/align-items/stretch.png" height="390" width="400" alt="stretch property">
+<img src="../assets/align-items/stretch.png" height="400" width="400" alt="stretch property">
 <figcaption><p align="center">align items property with default value</p><figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ Aligns content to the start edge of their cell.
 ```
 
 <figure>
-<img src="../assets/align-items/start.png" height="390" width="862" alt="align items property with start value">
+<img src="../assets/align-items/start.png" height="400" width="862" alt="align items property with start value">
 <figcaption><p align="center">align items property with start value</p><figcaption>
 </figure>
 
@@ -66,7 +66,7 @@ Aligns content to the end edge of their cell.
 ```
 
 <figure>
-<img src="../assets/align-items/end.png" height="420" width="390" alt="align items property with end value">
+<img src="../assets/align-items/end.png" height="400" width="962" alt="align items property with end value">
 <figcaption><p align="center">align items property with start value</p><figcaption>
 </figure>
 
@@ -87,7 +87,7 @@ Aligns content to the center of their cell.
 ```
 
 <figure>
-<img src="../assets/align-items/center.png" height="420" width="390" alt="align items property with center value">
+<img src="../assets/align-items/center.png" height="400" width="962" alt="align items property with center value">
 <figcaption><p align="center">align items property with center value</p><figcaption>
 </figure>
 
@@ -96,6 +96,6 @@ Aligns content to the center of their cell.
 It moves the content based on the baseline of the contents.
 
 <figure>
-<img src="../assets/align-items/center.png" height="420" width="390" alt="align items property with center value">
+<img src="../assets/align-items/center.png" height="400" width="962" alt="align items property with center value">
 <figcaption><p align="center">align items property with center value</p><figcaption>
 </figure>
