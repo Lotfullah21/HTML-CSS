@@ -102,3 +102,17 @@ For instance we want the first cell to take the the space of first column and wh
 <p align="center">grid lines using developer tools.</p>
 </figcaption>
 </figure>
+
+## Note:
+
+There is a short cut to write `grid-row-start: 1; grid-row-end` in just one line and that is `grid-row:start line/end line`.
+For the above example, it can be written as
+
+```css
+.cell-7 {
+	background: rgb(199, 0, 0);
+	grid-row: 1/-1;
+}
+```
+
+Same goes with column lines.
