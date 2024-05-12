@@ -31,7 +31,7 @@ It fills the whole width of the cell and it is the default value as well.
 ```
 
 <figure>
-<img src="../assets/justify-items/stretch.png" height="380" width="380" alt="stretch property">
+<img src="../assets/justify-items/stretch.png" height="380" width="862" alt="stretch property">
 <figcaption><p justify="center">justify items property with default value</p><figcaption>
 </figure>
 
