@@ -33,6 +33,6 @@ Lets say we want the first cell's content to be at the end of vertical axis(cros
 ```
 
 <figure>
-<img src="../assets/justify-self/justify-self.png" height="380" width="862" alt="justify self property">
+<img src="../assets/align-self/justify.png" height="380" width="862" alt="justify self property">
 <figcaption><p align="center">align self and justify self added</p><figcaption>
 </figure>
