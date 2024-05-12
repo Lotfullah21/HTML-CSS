@@ -1,4 +1,4 @@
-# align-self:
+# align-self/justify-self:
 
 Now, if we want to move individual elements inside a cell in column direction or row direction we will use `align-self` or `justify-self` property.
 
