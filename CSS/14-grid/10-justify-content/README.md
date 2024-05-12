@@ -25,7 +25,7 @@ It is the property that is by default, all columns are aligned at the beginning.
 ```
 
 <figure>
-<img src="../assets/justify-content/start.png" height="540" width="762" alt="grid area">
+<img src="../assets/justify-content/start.png" height="360" width="7862" alt="grid area">
 <figcaption><p align="center">justify content property with default value</p><figcaption>
 </figure>
 
@@ -46,7 +46,7 @@ It pushes all grid tracks along horizontal axis to the right most side of the co
 ```
 
 <figure>
-<img src="../assets/justify-content/start.png" height="440" width="762" alt="grid area">
+<img src="../assets/justify-content/start.png" height="440" width="862" alt="grid area">
 <figcaption><p align="center">justify content property with default value</p><figcaption>
 </figure>
 
