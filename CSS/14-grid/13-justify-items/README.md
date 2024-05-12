@@ -83,3 +83,9 @@ Aligns content to the center of their cell.
 <img src="../assets/justify-items/center.png" height="380" width="862" alt="justify items property with center value">
 <figcaption><p align="center">justify items property with center value</p><figcaption>
 </figure>
+
+# align-self:
+
+Like `align-items`, it moves the content along vertical direction of a cell, with one difference that `align-items` will be added to the parent, whereas `align-self` will be added to the individual cells.
+
+All properties are the same as `align-items` one.
