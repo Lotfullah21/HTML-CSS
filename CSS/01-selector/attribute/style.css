@@ -1,0 +1,18 @@
+/* only select the p's which are children or contained within 'my-block' class*/
+
+h2[class="heading"] {
+	text-transform: uppercase;
+	color: red;
+}
+
+li:nth-child(3) {
+	color: rgb(175, 107, 4);
+	text-transform: uppercase;
+	font-size: 1.2rem;
+}
+
+li:nth-of-type(1) {
+	font-size: 1.4rem;
+	color: rgb(4, 21, 175);
+	text-transform: uppercase;
+}
