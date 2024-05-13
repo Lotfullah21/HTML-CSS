@@ -1,0 +1,59 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.card {
+	width: 30vw;
+	height: 20vh;
+	margin: 90px auto;
+	margin-top: 240px;
+	position: relative;
+}
+
+img {
+	/* in order for image to take the full width of its parents, add width:100% */
+	width: 100%;
+	height: 100%;
+	/* to fill the gap add display: block */
+	display: block;
+}
+
+/* note down that the image is itself a content, we cannot add content before or after it,
+ we need to wrap it inside a div and add that content based on that div */
+
+div::before {
+	content: "";
+	border: 2px red solid;
+	/* take 100% of the div which we are creating this content before */
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	/* to remove the margins because we are adding something new */
+	box-sizing: border-box;
+	top: -20%;
+	left: -20%;
+	z-index: -90;
+	transition: all 0.5s linear;
+}
+div::after {
+	content: "";
+	background: grey;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	/* to remove the margins because we are adding something new */
+	box-sizing: border-box;
+	top: -13%;
+	left: -13%;
+	z-index: -32;
+	transition: all 0.5s linear;
+}
+
+div:hover::after,
+div:hover::before {
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
