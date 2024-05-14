@@ -12,7 +12,7 @@ This adds shadow to a text.
 
 ##### Syntax:
 
-`` `bash
+```bash
 
 selector{
 
@@ -20,7 +20,8 @@ selector{
     X-Coordinate(px): Horizontal shadow.
     Y-Coordinate(px): Vertical shadow.
 
-}```
+}
+```
 
 If coordinates values are negative or zero, it means the shadow is directly behind centered behind the text.
 
