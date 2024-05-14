@@ -1,0 +1,70 @@
+div {
+	width: 100px;
+	height: 100px;
+	color: white;
+	margin: 2px;
+}
+
+.box-1 {
+	background-color: rgb(1, 43, 29);
+}
+.box-1:hover {
+	transform: skew(90deg);
+	transition: all 2s linear;
+}
+
+.box-2 {
+	margin: 2rem auto;
+	background-color: rgb(1, 10, 10);
+	animation: rotate 2s infinite;
+	animation-fill-mode: backwards;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(54deg);
+	}
+	10% {
+		transform: skew(180deg);
+	}
+	15% {
+		background-color: aqua;
+		border-radius: 50%;
+	}
+	25% {
+		background-color: rgb(0, 0, 0);
+		transform: translate(-50px, 60px);
+	}
+	50% {
+		transform: translate(50px, 100px);
+		opacity: 1;
+	}
+	70% {
+		transform: rotate(90deg);
+		transform: translate(60px, -30px);
+	}
+	80% {
+		background-color: brown;
+		transform: rotate(180deg);
+		transform: translate(60px, -20px);
+		opacity: 0;
+	}
+	90% {
+		background-color: rgb(147, 247, 7);
+		transform: rotate(160deg);
+		transform: translate(60px, -20px);
+		opacity: 0.9;
+	}
+	95% {
+		background-color: rgb(255, 5, 0);
+		transform: rotate(98deg);
+		transform: translate(70px, -10px);
+		opacity: 0.8;
+	}
+	100% {
+		background-color: blueviolet;
+		transform: rotate(98deg);
+		transform: translate(0px, -5px);
+		opacity: 2;
+	}
+}
