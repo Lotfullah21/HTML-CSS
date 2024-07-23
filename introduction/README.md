@@ -1,3 +1,38 @@
+### Network
+
+When two devices connected together, they form a network.
+<img src="./assets/internet/network.png" style="height:50px">
+
+A network is made up of at least two devices that connect and communicate via a wired or wireless connection.
+
+### Network Switch
+
+It connects multiple devices together and allows them to communicate with each other.
+One network switch can connect to another switch to link two networks.
+
+### Interconnected network
+
+When more network switches connected together, they are called interconnected network.
+
+### Internet:
+
+Interconnected network is called internet
+<img src="./assets/internet/internet.png" style="height:90px">
+
+### Server
+
+A server is a computer that runs applications and provides services to the clients.
+Users are called client in this terminology.
+
+### Software
+
+The codes that runs on a hardware like cpus are called software.
+
+### Webserver
+
+It handles web requests, data storage security and managing emails.
+Web servers can handle thousands of requests from clients per second.
+
 ### Webpage:
 
 A document that displays images, texts, videos and other contents.
@@ -125,16 +160,18 @@ For instance `React, Angular` in JavaScript for frontend development, `Django,Ex
 - Dependence on the libraries that are used inside the framework
 
 #### Package Manager:
+
 A tool that automatically download and install dependencies.
 
 "download" involves transferring files from a remote location to a local device, while "install" involves setting up and configuring the downloaded software on the local device to make it usable. Downloading is the initial step to obtain the necessary files, while installing is the subsequent step to set up the software for use.
 
 We use `Node package manager (NPM)` for managing our dependencies in front-end development.
 
-
 #### Bundling:
+
 The process of adding all dependencies inside a file in html file is known as bundling.
 famous ones are `Webpack` and `Gulp`.
+
 ###### Refactoring:
 
 Changing the structure of the code without changing its functionality.
