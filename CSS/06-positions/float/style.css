@@ -1,11 +1,14 @@
 div {
-  border: 1px solid red;
-}
-
-img {
-  float: left;
+	border: 1px solid red;
 }
 
 p {
-  clear: left;
+	clear: left;
+}
+
+.second {
+	border-radius: 50%;
+	width: 140px;
+	height: 130px;
+	float: right;
 }

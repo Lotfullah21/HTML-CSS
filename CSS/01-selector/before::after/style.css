@@ -45,8 +45,8 @@ div::after {
 	position: absolute;
 	/* to remove the margins because we are adding something new */
 	box-sizing: border-box;
-	top: -13%;
-	left: -13%;
+	top: -12%;
+	left: -12%;
 	z-index: -32;
 	transition: all 0.5s linear;
 }

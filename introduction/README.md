@@ -111,6 +111,19 @@ A software application that is used to make a request to a server.
 A special kind of computer that allows other computers to make a request for data, in fact, it middle point between the database where the data is stored.
 It process the users request gets the required data from a database and sends it back to the users machine.
 
+### Application
+
+It generates the dynamic content that will be sent to the user by web-server.
+The application server generates the dynamic content that the web server sends back to the user’s browser.
+
+### Dynamic content:
+
+It is generated while we use a website.
+
+### Static content
+
+These are the contents that are stored in the web server and will be delivered to the user as they are stored.
+
 ### HTTP:
 
 A web server communicates with a web browser using the Hypertext Transfer Protocol (HTTP). The content of most web pages is encoded in Hypertext Markup Language (HTML).

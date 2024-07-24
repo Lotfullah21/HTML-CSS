@@ -1,8 +1,8 @@
-## Pseudo class:
+# Pseudo class:
 
 It improves the interactivity of the website based on the user input.
 
-#### Syntax:
+## Syntax:
 
 ```css
 selector:pseudo-class {
@@ -10,7 +10,7 @@ selector:pseudo-class {
 }
 ```
 
-#### 1. selector:hover:
+## 1. selector:hover:
 
 It applies styles when the cursor moves over the the selector.
 
@@ -21,12 +21,12 @@ a:hover {
 }
 ```
 
-The a tag will turns read and its text will be capitalized when a cursor hovers over it.
+The `<a>` tag will turns read and its text will be capitalized when a cursor hovers over it.
 
-#### 1. selector:user:
+## 1. selector:user:
 
 It applies styles when the user clicks on the selector.
 
-#### 1. selector:hover:
+## 1. selector:hover:
 
 It applies styles when the cursor moves over the the selector.

@@ -1,8 +1,16 @@
 /* only select the p's which are children or contained within 'my-block' class*/
 
-h2[class="heading"] {
+#title {
+	text-transform: capitalize;
+}
+
+h2[class="heading-2"] {
 	text-transform: uppercase;
 	color: red;
+}
+
+.heading-2 {
+	text-decoration: underline;
 }
 
 li:nth-child(3) {
