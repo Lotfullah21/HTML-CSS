@@ -2,11 +2,11 @@ a:link {
 	color: blue;
 }
 a:visited {
-	color: rgb(16, 35, 16);
+	color: rgb(225, 6, 6);
 }
 a:hover {
-	color: rgb(113, 188, 0);
+	color: rgb(149, 241, 9);
 }
 a:active {
-	color: rgb(174, 0, 0);
+	color: rgb(17, 174, 0);
 }

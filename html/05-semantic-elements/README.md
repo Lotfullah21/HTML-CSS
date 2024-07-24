@@ -16,7 +16,7 @@ Some common layouts:
 # Semantics:
 
 It is best practice when writing an html code to describe the content using something that has meaning.
-For instance, if you are trying to add headings, do not use `<p>` and increase its font size;Use headings tags instead to convey to the search engine and screen readers that it is a heading.
+For instance, if you are trying to add headings, do not use `<p>` and increase its font size;Use headings tags(`<h1,...,h6>`) instead to convey to the search engine and screen readers that it is a heading.
 Each html tags are there to server a purpose.
 `<img>` for image, `<ul>` for un-order list and so on.
 
@@ -53,7 +53,7 @@ The idea is simple, describe your content semantically to add meaning using prop
 
 ## 1. Header:
 
-The main navigation links of your website should be added inside the nav element.
+The main navigation links of your website should be added inside the nav element and use unordered list instead of ordered list.
 
 ```html
 <!DOCTYPE html>
@@ -84,10 +84,12 @@ The main navigation links of your website should be added inside the nav element
 
 ## 2. Main
 
-For header, usually we have the logo and after the logo, we have nav links.
-For main section, we have `<article>` and `<section>`
+For header, usually we have the logo and after the logo we have nav links.
+For main section, we have `<article>` and `<section>`.
 
-`1. <article>`: It represents a complete and self contained composition in a document page application. Just like a newspaper.
+### 1.`<article>`:
+
+It represents a complete and self contained composition in a document page application. Just like a newspaper.
 
 It represent an independent content, Examples are Forum post, article, blog post, user comment and so on.
 
@@ -110,7 +112,9 @@ body>
 
 ```
 
-`2. <section>`: It defines the individual section of the article.
+### 3.`<section>`:
+
+It defines the individual section of the article.
 `<section>` should contain heading elements to semantically describe the section.
 
 ```html
@@ -129,6 +133,7 @@ body>
 		<!-- Main contents -->
 		<main>
 			<article>
+				<!-- Hooshmand lab journey can be an article and its different phases, different sections. -->
 				<h1>Hooshmandlab Journey</h1>
 				<section>
 					<h1>Early life</h1>
@@ -180,7 +185,7 @@ It contains additional links and content to the website.
 ```
 
 <figure>
-    <img src="./assets/basic.png" alt="Layout of a simple website">
+    <img src="./assets/basic.png" alt="Layout of a simple website" height="560">
     <figcaption>Layout of a simple website.</figcaption>
 </figure>
 
@@ -227,6 +232,19 @@ It contains additional links and content to the website.
         <strong>hello</strong>
         <em>hello</em>
         <sub>king</sub>
+```
+
+The above html code output.
+
+```html
+<cite>hello</cite>
+<code>def code</code>
+<var>x = 3*4</var>
+<datalist>helllo</datalist>
+<p><mark>hello</mark></p>
+<strong>hello</strong>
+<em>hello</em>
+<sub>king</sub>
 ```
 
 ### Embedded content and media tags:

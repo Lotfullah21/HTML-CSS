@@ -64,6 +64,8 @@ Every box consist of four element which are content, padding, border, and margin
 It is used to attract elements or move one element on top of another
 `outline`: it is used to draw boxes around an element, but with one vital difference with border, we can move the outline to the outside or inside of the boxes.
 
+In CSS we can set only the left and right margins to auto
+
 Padding does increase the size of the content, but rather increase the area where the content is placed.
 
 <img src="./assets/box.png">

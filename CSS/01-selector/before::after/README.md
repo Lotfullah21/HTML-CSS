@@ -12,7 +12,7 @@ div::before {
 
 this will add this content before each div element.
 
-for empty `div` DO not forget `height && width` property.
+for empty `div` DO NOT FORGET `height && width` property.
 
 ### note:
 
@@ -44,7 +44,9 @@ div::before {
 }
 ```
 
-note down that the image is itself a content, we cannot add content before or after it,
+## Note:
+
+The image is itself a content, we cannot add content before or after it,
 we need to wrap it inside a div and add that content based on that div.
 
 ```css
@@ -52,3 +54,5 @@ we need to wrap it inside a div and add that content based on that div.
 	content: "hell";
 }
 ```
+
+For now, just forget about position property.

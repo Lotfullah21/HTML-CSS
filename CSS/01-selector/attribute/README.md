@@ -6,7 +6,7 @@ element[attribute or attribute=value]{
 
 }
 
-It says for this element with this attribute like having an `id` or a `class`, apply this rule.
+It says: for this element with this attribute (`id` or a `class`), apply this rule.
 
 ```css
 h2[class="heading"] {
@@ -14,6 +14,16 @@ h2[class="heading"] {
 	color: red;
 }
 ```
+
+The above rule specifically targets h2 elements that have a class attribute with the exact value heading-2.
+
+```css
+.heading-2 {
+	text-transform: underline;
+}
+```
+
+The above rule targets all elements with the class heading-2, regardless of their tag (not limited to h2).
 
 ## nth-of-type and nth-of-child selectors:
 
@@ -23,14 +33,4 @@ It applies a style to nth child of a parent. for instance inside a `div` if we h
 element:nth-of-type(n) {
 	property: value;
 }
-```
-
-```css
-element:nth-chile(n) {
-	property: value;
-}
-```
-
-```html
-
 ```
