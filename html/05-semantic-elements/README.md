@@ -185,7 +185,7 @@ It contains additional links and content to the website.
 ```
 
 <figure>
-    <img src="./assets/basic.png" alt="Layout of a simple website" height="560">
+    <img src="./assets/basic.png" alt="Layout of a simple website" height="500">
     <figcaption>Layout of a simple website.</figcaption>
 </figure>
 
@@ -258,93 +258,42 @@ Used as a containing element for external content provided by an external
 application such as a media player or plug-in application. >
 ```
 
-```html
-<code>
-	<table>
-		Defines a table element to display table data within a web page.
-
-		<thead>
-			Represents the header content of a table. Typically contains one
-			<tr>
-				element.
-
-				<tbody>
-					Represents the main content of a table. Contains one or more
-					<tr>
-						elements.
-
-						<tfoot>
-							Represents the footer content of a table. Typically contains one
-							<tr>
-								element.
-							</tr>
-
-							<tr>
-								Represents a row in a table. Contains one or more
-								<td>
-									elements when used within
-									<tbody>
-										or
-									</tbody>
-									<tfoot>
-										. When used within
-										<thead>
-											, contains one or more
-											<th>elements.</th>
-
-											<td>
-												Represents a cell in a table. Contains the text content
-												of the cell.
-											</td>
-
-											<th>
-												Defines a header cell of a table. Contains the text
-												content of the header.
-
-												<caption>
-													Defines the caption of a table element.
-												</caption>
-											</th>
-										</thead>
-									</tfoot>
-								</td>
-							</tr>
-						</tfoot>
-					</tr>
-				</tbody>
-			</tr>
-		</thead>
-	</table></code
->
+```bash
+<table>:Defines a table element to display table data within a web page.
+<thead>: Represents the header content of a table. Typically contains one
+<tbody>: Represents the main content of a table. Contains one or more
+<tfoot>: Represents the footer content of a table. Typically contains one
+<tr>:Represents a row in a table. Contains one or more
+<th>:Defines a header cell of a table. Contains the text content of the header.
 ```
 
 ### Table:
 
-```html
+```bash
 <table>
 	<thead>
 		<tr>
-			<th>Name</th>
-			<th>Age</th>
-			<th>Country</th>
+		<th>Name</th>
+		<th>Age</th>
+		<th>Country</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td>Ahmad</td>
-			<td>43</td>
-			<td>Afg</td>
+		<td>Ahmad</td>
+		<td>43</td>
+		<td>Afg</td>
 		</tr>
 		<tr>
-			<td>Yama</td>
-			<td>25</td>
-			<td>India</td>
+		<td>Yama</td>
+		<td>25</td>
+		<td>India</td>
 		</tr>
 	</tbody>
 </table>
 ```
 
 <figure>
-    <img src="./assets/semantics.png" alt="Layout of a website described by different elements.">
+    <img src="./assets/semantics.png" alt="Layout of a website described by different elements." height="500">
     <figcaption>Layout of a website described by different elements.</figcaption>
 </figure>

@@ -1,8 +1,9 @@
 ## Open Graph Protocol(OG):
 
-It consist fo metadata rules for describing the website when shared on social media platforms.
+It consist of sets of metadata rules for describing the website when shared on social media platforms.
 It helps the social media platform to create a preview of the shared web page.
-Introduced in 2010 by.
+
+Introduced in 2010 by Meta.
 
 The rules are almost same as metadata, but instead of `name` attribute, it uses `property` and the `content` remains the same.
 
@@ -37,8 +38,8 @@ We need to include at least four different protocols, `og:title`,`og:type`,`og:u
 ```
 
    <figure style="margin: 0 auto; max-width: 600px; text-align: center;">
-        <img src="./assets/og.jpeg" alt="Describing open graph protocol" style="margin-bottom: 10px;">
+        <img src="./assets/layout.png" alt="Describing open graph protocol" style="margin-bottom: 10px;">
         <figcaption style="padding-top: 10px; text-align:center;">Open graph protocol and its properties</figcaption>
     </figure>
 
-<a><img src="https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/">og-image-source</a>
+<a src="https://www.freecodecamp.org/news/what-is-open-graph-and-how-can-i-use-it-for-my-website/">

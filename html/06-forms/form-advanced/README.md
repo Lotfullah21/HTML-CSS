@@ -68,6 +68,8 @@ It allows only one value to be submitted, but all radio buttons should have the 
 
 For instance, giving an option to the user which lets them to choose what they want, we can use radio buttons.
 
+`<fieldset>`: It defines a group for radio buttons.
+
 ```html
     <input type="radio" id="light" name="theme" value="Light">
     <label for="light">Light</label>
