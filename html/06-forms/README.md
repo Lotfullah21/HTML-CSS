@@ -44,12 +44,12 @@ To connect your label and the form attribute, the `id` and `for` attribute shoul
 
 It can be observed that the for the `id` and `for` attribute are having same value.
 
-### <radio>:
+### `<radio>`
 
 To have a proper radio buttons, the name value for all input fields should be the same.
 Same goes for checkbox input fields.
 
-### <fieldset>
+### `<fieldset>`
 
 Used to group related input elements in a form. For instance, elements related to the courses and fees can be grouped separately in two field sets.
 
@@ -65,23 +65,28 @@ Used for HTML elements that do not have input validation like `div`.
 
 Determine the minimum and maximum values allowed for an input field. They are usually applied to numerical text inputs, range inputs or dates.
 
+```html
 <input type="number" id="courses" name="courses" min="1" max="5" />
 
 <input type="range" id="speed" name="speed" min="1" max="100" />
+```
 
-##### Multiple
+Multiple
+Indicates that the user can enter more than one value in a single input field.
+This attribute can only be used for email and file input types.
 
-Indicates that the user can enter more than one value in a single input field. This attribute can only be used for email and file input types.
+`html<input type="file" id="images" name="images" multiple />`
 
-<input type="file" id="images" name="images" multiple>
+`<input type="file" />`: This creates a file input field, allowing users to
+browse and select files from their device.
+`id="images"`: and name=`images`:
+These attributes provide identifiers for the input field, making it easier to
+reference in CSS and JavaScript, and they specify the name that will be used
+when submitting the form data.
+`multiple`: When this attribute is included, it
+allows users to select multiple files at once. Without it, users can typically
+only select one file at a time.
+`Required`: Denotes a mandatory input that the user can’t leave empty.
+It can be used with any input type, like password,radio, text and so on.
 
-`<input type="file">`: This creates a file input field, allowing users to browse and select files from their device.
-`id="images"`: and name="images": These attributes provide identifiers for the input field, making it easier to reference in CSS and JavaScript, and they specify the name that will be used when submitting the form data.
-`multiple`: When this attribute is included, it allows users to select multiple files at once. Without it, users can typically only select one file at a time.
-
-#### Required:
-
-Denotes a mandatory input that the user can’t leave empty. It can be used with any input type, like password, radio, text and so on.
-
-<input type="text" id="firstName" name="firstName" required>
-added
+`<input type="text" id="firstName" name="firstName" required />`

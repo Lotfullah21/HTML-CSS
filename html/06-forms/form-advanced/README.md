@@ -4,7 +4,7 @@
 
 Client-side validation checks for errors when the user writes the data into the form. The web browser does this by checking the typed data against the type of data that is specified when building the form like, `type=password` or `type=number` and provide to the user a feedback if the types of data does not matched.
 
-more advanced version would if we add `required` attribute to each field or the ones we require their values so that the form should not be submitted unless the data is provided and also we can add `minlength` and `maxlength` attribute to ensure the correctness of the length of the input values;It can be used when validating the password or text fields.
+more advanced version would be if we add `required` attribute to each field or the ones we require their values so that the form should not be submitted unless the data is provided and also we can add `minlength` and `maxlength` attribute to ensure the correctness of the length of the input values;It can be used when validating the password or text fields.
 
 Why client side validation? To save the web server resources.
 
@@ -18,7 +18,7 @@ The HTTP POST method is more secure than the HTTP GET method. When a form is sub
 
 # Input Types:
 
-There are different input types and each server a specific purpose, one for password setup, another for name setup and so on.
+There are different input types and each serves a specific purpose, one for password setup, another for name setup and so on.
 
 One of the best practices is to use labels along the side the inputs, because it makes clearer for the user which input fields belongs to which label.
 
@@ -28,7 +28,7 @@ To relate the label and the field, use the same value for `id` attribute in an i
 
 We have `<button>` as well, here are some differences between the two.
 
-1. `<input type="button">` cannot have more than one line of content or one content where as `<button>` can have nested element inside it.
+1. `<input type="button">` cannot have more than one line of content or one content where as `<button>` can have nested element.
 
 2. `<input type="button"> ` It does not submit the form by default unless the functionality is added using JavaScript,but `<button>` submit the form without being explicitly mentioned if used inside the form.
 
@@ -64,9 +64,9 @@ We have `<button>` as well, here are some differences between the two.
 
 ##### 2. Radio:
 
-It allows only one value to be submitted, but all radio buttons should have same in order to get under same category of options.
+It allows only one value to be submitted, but all radio buttons should have the same in order to get under same category of options.
 
-For instance, giving an option to the user which theme they want, we can use radio buttons.
+For instance, giving an option to the user which lets them to choose what they want, we can use radio buttons.
 
 ```html
     <input type="radio" id="light" name="theme" value="Light">

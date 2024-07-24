@@ -19,6 +19,12 @@ Some of the most common media types that are supported by most of the browsers a
 </body>
 ```
 
+`<video>` Element: Embeds the video in the web page.
+
+`loop`: The video will loop back to the beginning after it finishes playing.
+`controls`: Standard video controls are provided for user interaction.
+`width="840"`: The video player will be 840 pixels wide.
+
 # 2. Audio:
 
 For audio, the most common media types that are supported by most web browsers are `.mp4, .ogg, .wav`

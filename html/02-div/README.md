@@ -12,7 +12,7 @@ a tag is the markup syntax used to define elements, while an element consists of
 
 #### DIV:
 
-A <div> tag defines a content division in a HTML document. It acts as a generic container and has no effect on the content unless it is styled by CSS.
+A `<div>` tag defines a content division in a HTML document. It acts as a generic container and has no effect on the content unless it is styled by CSS.
 
 #### Attribute:
 
@@ -20,7 +20,7 @@ In HTML, an "attribute" is additional information that can be added to an HTML e
 
 ```bash
 <tagname attribute_name="attribute_value">Content</tagname>
-
+<h1 class="heading-1">Content</h1>
 ```
 
 - <tagname> is the HTML element.
