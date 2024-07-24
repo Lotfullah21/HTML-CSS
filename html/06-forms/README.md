@@ -1,6 +1,6 @@
 ## Form:
 
-The <form> element is used to create a form on a web page.
+The `<form>` element is used to create a form on a web page.
 forms are used to collect information from the user, such as text, radio buttons, checkboxes ,and more.
 
 | Element/Attribute       | Description                                                                                                                                                                         |

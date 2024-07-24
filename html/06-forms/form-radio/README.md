@@ -131,3 +131,31 @@ After adding the above changes,
 	</body>
 </html>
 ```
+
+### `fieldset`
+
+Used to group related input elements in a form. For instance, elements related to the user’s personal information and educational qualification can be grouped separately in two field sets.
+
+### `<legend>`
+
+Defines a caption for the <fieldset> element.
+
+## `<datalist>`
+
+Specifies a list of pre-defined options for an input element. It differs from <select> since the user can still provide textual or numeric input other than the listed options.
+
+```bash
+<form action="/my_action_page">
+ <label for="flowers">Favourite flower:</label><br>
+ <input list="flowers" name="flowers">
+ <datalist id="flowers">
+   <option value="Rose">
+   <option value="Lily">
+   <option value="Tulip">
+   <option value="Daffodil">
+   <option value="Orchid">
+ </datalist>
+ ...
+</form>
+
+```
