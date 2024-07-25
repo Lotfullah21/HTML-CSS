@@ -4,7 +4,7 @@ A font is a collection of text characters written in a specific style and size.
 
 ```css
 h1 {
-  font-family: "Times New Roman", Times, serif;
+	font-family: "Times New Roman", Times, serif;
 }
 ```
 
@@ -24,8 +24,8 @@ We can specify the size in various units such as pixels (px), points (pt), ems (
 
 ```css
 h1 {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 16px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
 }
 ```
 
@@ -41,7 +41,7 @@ The most commonly used values for the text-transform property are: uppercase, lo
 
 ```css
 h1 {
-  text-transform: lowercase;
+	text-transform: lowercase;
 }
 ```
 
@@ -53,7 +53,7 @@ It is used to add more styles to the texts.
 
 ```css
 h1 {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 ```
 
@@ -61,10 +61,10 @@ Adds an underline for h1 tag.
 
 ```css
 h1 {
-  text-decoration-line: underline;
-  text-decoration-color: green;
-  text-decoration-style: solid;
-  text-decoration-thickness: 3px;
+	text-decoration-line: underline;
+	text-decoration-color: green;
+	text-decoration-style: solid;
+	text-decoration-thickness: 3px;
 }
 ```
 
@@ -72,6 +72,14 @@ Lets shorten the above properties and write in one line.
 
 ```css
 h1 {
-  text-decoration: underline green solid 3px;
+	text-decoration: underline green solid 3px;
 }
+```
+
+## Special Characters
+
+To get special characters, we need to use `&` followed by the type of special characters we want to have.
+
+```html
+<h1>copyright &copy;</h1>
 ```
