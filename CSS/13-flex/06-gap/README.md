@@ -1,6 +1,7 @@
 ## Gap:
 
-It is used to create spaces between flexible container elements and the spacing is applied only between items, not the outer border.
+gap property can be used to create space between the items along the main axis. You can also individually configure the gaps in rows and columns using row-gap and column-gap properties.
+Gap is applied only between items, not the outer border.
 
 This property can be added using four ways.
 `gap`: It applies the spacing bot for the columns and rows, it short notation for `gap: row-gap column-gap`.
@@ -9,6 +10,7 @@ This property can be added using four ways.
 .container {
 	height: 20rem;
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
 	border: 2px rgb(50, 255, 255) solid;
 	gap: 30px;

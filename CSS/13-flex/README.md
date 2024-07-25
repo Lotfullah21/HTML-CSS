@@ -1,12 +1,13 @@
 ## Flex:
 
-flex box is a type of container that and can easily scale over larger web applications and also it gives more control for controlling the elements inside a container.
+It is short for flexible box model.
+Flex box is a type of container that can be easily scale over larger web applications and also it gives more control for controlling the elements inside a container.
 
-The main idea behind the flex layout is to give the container the ability to alter its items’ width/height (and order) to best fill the available space (mostly to accommodate to all kind of display devices and screen sizes). A flex container expands items to fill available free space or shrinks them to prevent overflow.(1)
+The main idea behind the flex layout is to give the container the ability to alter its item's width/height, and order to best fill the available space.
+This is because it can grow, shrink and align the items inside it which give better control to the programmer over the contents and styling of the items inside the container.
+A flex container expands items to fill available free space or shrinks them to prevent overflow.(1)
 
 <img src="./assets/flex.svg">
-
-<a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-basics-and-terminology" targe="_blank">image source</a>
 
 Because, The elements inside can grow, shrink unlike the block and inline block elements which does not have much control over the elements inside.
 
@@ -20,15 +21,21 @@ If the row is the main axis, the items start from top left and continues until t
 
 # Flex Box Properties
 
-
 <img src="./assets/container.png" alt="container along with its children"
 width="360" height="120">
 
 ### 1. display
 
-This defines a flex container where are of its children will follow the rules of a flex based parent.
+This defines a flex container where all of its children will follow the rules of a flex based parent.
 
 Lets consider the given html file, as it be seen the container class is defined and it has three children and the container here can be a flex container once its display property changes to `flex`.
+
+If the display is not flex, how will it look?
+
+<figure>
+<img src="./assets/block.png" alt="description of block level elements" height="220" width="480" />
+<figcaption>block level elements without using flex for display property</figcaption>
+</figure>
 
 ```html
 <body>
@@ -50,10 +57,4 @@ Lets consider the given html file, as it be seen the container class is defined 
 }
 ```
 
-If the display is not flex, how will it look?
-
-<figure>
-<img src="./assets/block.png" alt="description of block level elements" height="220" width="480" />
-<figcaption>block level elements without display flex property</figcaption>
-</figure>
-
+<a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-basics-and-terminology" targe="_blank">image source</a>

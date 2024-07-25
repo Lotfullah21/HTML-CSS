@@ -1,17 +1,27 @@
 body {
-	background-color: rgb(21, 18, 18);
+	background-color: grey;
 	border: 2px rgb(50, 255, 255) solid;
 }
 
 .container {
 	display: flex;
-	justify-content: space-evenly;
+	flex-direction: row-reverse;
+	flex-direction: column-reverse;
+	/* flex-direction: row; */
+	flex-direction: column;
+	align-items: center;
+	align-items: flex-end;
+	align-items: flex-start;
 }
 .box {
 	text-align: center;
-	font-size: 2.9rem;
-	padding: 2rem 3rem;
+	font-size: 1.9rem;
+	padding: 1.4rem 1.4rem;
 	color: white;
+	text-transform: capitalize;
+	font-family: "Courier New", Courier, monospace;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
 }
 
 .box-1 {

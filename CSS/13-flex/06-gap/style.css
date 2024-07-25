@@ -3,21 +3,18 @@ body {
 }
 
 .container {
-	height: 30rem;
+	height: 20rem;
 	display: flex;
-	flex-wrap: wrap;
-	align-content: normal;
-	align-content: start;
-	align-content: end;
-	align-content: space-between;
-	align-content: space-around;
-	align-content: space-evenly;
-	border: 2px rgb(50, 255, 255) solid;
+	/* flex-wrap: wrap; */
+	flex-direction: column;
+	align-items: center;
+	column-gap: 30px;
+	row-gap: 12px;
 }
 .box {
 	text-align: center;
 	font-size: 2.9rem;
-	padding: 2rem 3rem;
+	padding: 1.4rem 2rem;
 	color: white;
 }
 
@@ -32,6 +29,7 @@ body {
 }
 .box-4 {
 	background: rgb(135, 9, 38);
+	align-self: flex-start;
 }
 .box-5 {
 	background: rgb(0, 72, 94);
@@ -40,11 +38,12 @@ body {
 	background: rgb(154, 146, 0);
 }
 .box-7 {
-	background: rgb(0, 19, 88);
+	background: rgb(0, 14, 66);
+	align-self: flex-end;
 }
 .box-8 {
-	background: rgb(169, 34, 0);
+	background: rgb(67, 169, 0);
 }
 .box-9 {
-	background: rgb(1, 168, 104);
+	background: rgb(0, 4, 126);
 }
