@@ -1,7 +1,5 @@
 # Units.
 
-#### `grid-template-columns/rows:value1 value2 value3 .... `
-
 It allows us to create rows and columns using `grid-template-rows` and `grid-template-columns`.
 
 These values can be in `%, em, px, rem, etc` to specify width or height of each column or row.
@@ -16,9 +14,7 @@ Lets say we are having five `div` elements and we want the first two column to h
 
 ```
 
-The first two columns will have the width of `50px` and `150px` respectively.
-
-1. ## Fraction(fr):
+## 1. Fraction(fr):
 
 It represents fraction of remaining space.
 
@@ -30,7 +26,7 @@ For instance if `grid-template-columns: 20px 30px 40x 1fr 1fr;`, it means that f
 
 Among all, fraction is the most widely used unit in grids when we want to create responsive layouts.
 
-2. ## Percentage(%):
+## 2. Percentage(%):
 
 It takes a percentage of the container width/height.
 
@@ -51,7 +47,7 @@ No, it is not, `25%` is still that `50px`.
 
 Fraction unit does this smartly and add the gap to the width of container and based on that takes the remaining space.
 
-3. ## auto:
+## 3. auto:
 
 It helps us to have a responsive column. Based on screen size it will get smaller or larger.
 

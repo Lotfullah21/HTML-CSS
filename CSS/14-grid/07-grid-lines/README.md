@@ -55,9 +55,9 @@ The value assigned to these properties represents the line numbers.
 </figcaption>
 </figure>
 
-#### Question:
+## Question:
 
-Now we want a column to start from a specif line and goes up to the end, How to do this if we do not know number of grid lines or columns?
+Now we want a column to start from a specific line and goes up to the end, How to do this if we do not know number of grid lines or columns?
 
 As mentioned earlier, the grid lines from the end starts with negative one, so we can assign to the `grid-col-end` value -1.
 

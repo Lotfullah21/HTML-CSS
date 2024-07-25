@@ -9,9 +9,9 @@ Two step procedure:
 
 ### grid-template-areas:
 
-It a grid template by using the names of the grid areas which are mentioned with grid-area property for each child.
+It creates a grid template by using the names of the grid areas which are mentioned with grid-area property for each child.
 
-It crease a layout for us by giving the freedom how much each cell should span across the template.
+It creates a layout for us by giving the freedom how much each cell should span across the template.
 
 Note: Number of names should be equal across all rows in the template.
 

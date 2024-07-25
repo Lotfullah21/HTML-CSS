@@ -8,7 +8,7 @@ It creates a row track for each value specified in `grid-template-rows` .
 For instance, value1 means for value, the height of the row should be as much as is specified in value1.
 These values can be in `%, em, px, rem, etc.`
 
-Lets say we are having five `div` elements and we want the first two row to have `50px, 150px` height, each of them respectively.
+Lets say we are having five `div` elements and we want the first two row to have `50px, 150px` height respectively.
 
 ```css
 .container{
@@ -22,7 +22,7 @@ The first two rows will have the height of `50px` and `150px` respectively, but 
 
 ![Explicit grid layout rows applied for all](../assets/temp-rows.png)
 
-<p align="center">Explicit grid layout rows applied for all</p>
+<p align="center">Explicit grid layout rows applied last three rows</p>
 
 We can have specific height for all of them as well, lets say we want `55px 20px 40px 70px 40px;` for each of the rows respectively, just add them.
 
@@ -71,7 +71,7 @@ For instance if we have `grid-template-rows: 170px 200px 100px;`, it means that 
 
 <figure>
 <img src="../assets/temp-cols.png" alt="grid columns property" height="420" width="660" />
-<p>grid columns property</p>
+<p align="center">grid columns property</p>
 </figure>
 
 ## repeat():
@@ -91,7 +91,7 @@ Lets say, we want to create a layout that has two rows columns, each 150px and f
 
 <figure> 
 <img src="../assets/repeat.png" alt="grid repeat function" height="300" width="660" />
-<p>grid repeat function</p>
+<p align="center">grid repeat function</p>
 </figure>
 
 !Important: If there is mismatch between number of elements and the number of cols/rows we specified in `grid-template-columns/rows` property, based on css rule, the last one will be followed. For instance in the above example if we specify to have 100 rows, but there is only 5 elements, it will not create 100 rows, It will follow what is mentioned in the next line which is four columns.

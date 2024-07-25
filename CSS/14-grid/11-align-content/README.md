@@ -34,12 +34,12 @@ It is the property that is by default, all columns are stretched to take the ful
 
 <figure>
 <img src="../assets/align-content/stretch.png" height="390" width="400" alt="stretch property">
-<figcaption><p align="center">align content property with default value</p><figcaption>
+<figcaption><p align="center">align-content property with default value</p><figcaption>
 </figure>
 
 ### 2. start:
 
-All items are placed at the start edge of the container from the top.
+All items are placed at the starting edge of the container from the top.
 
 ```css
 .container {
@@ -48,8 +48,8 @@ All items are placed at the start edge of the container from the top.
 ```
 
 <figure>
-<img src="../assets/align-content/start.png" height="390" width="862" alt="align content property with start value">
-<figcaption><p align="center">align content property with start value</p><figcaption>
+<img src="../assets/align-content/start.png" height="390" width="862" alt="align-content property with start value">
+<figcaption><p align="center">align-content property with start value</p><figcaption>
 </figure>
 
 ### 3. end
@@ -63,8 +63,8 @@ It pushes all grid tracks along column or vertical axis to the bottom most of th
 ```
 
 <figure>
-<img src="../assets/align-content/end.png" height="420" width="390" alt="align content property with end value">
-<figcaption><p align="center">align content property with start value</p><figcaption>
+<img src="../assets/align-content/end.png" height="420" width="390" alt="align-content property with end value">
+<figcaption><p align="center">align-content property with end value</p><figcaption>
 </figure>
 
 ### 4. center:
@@ -84,8 +84,8 @@ It aligns all items vertically at the center.
 ```
 
 <figure>
-<img src="../assets/align-content/center.png" height="420" width="390" alt="align content property with center value">
-<figcaption><p align="center">align content property with center value</p><figcaption>
+<img src="../assets/align-content/center.png" height="420" width="390" alt="align-content property with center value">
+<figcaption><p align="center">align-content property with center value</p><figcaption>
 </figure>
 
 ### 5. space-around:
@@ -106,8 +106,8 @@ It places even number of spaces between the rows in vertical direction and remai
 ```
 
 <figure>
-<img src="../assets/align-content/around.png" height="420" width="390" alt="align content property with space-around value">
-<figcaption><p align="center">align content property with space-around value</p><figcaption>
+<img src="../assets/align-content/around.png" height="420" width="390" alt="align-content property with space-around value">
+<figcaption><p align="center">align-content property with space-around value</p><figcaption>
 </figure>
 
 ### 6. space-between:
@@ -127,8 +127,8 @@ It places even number of spaces between the rows in vertical direction and there
 ```
 
 <figure>
-<img src="../assets/align-content/between.png" height="390" width="862" alt="align content property with space-between value">
-<figcaption><p align="center">align content property with space-between value</p><figcaption>
+<img src="../assets/align-content/between.png" height="390" width="862" alt="align-content property with space-between value">
+<figcaption><p align="center">align-content property with space-between value</p><figcaption>
 </figure>
 
 ### 7. space-evenly:
@@ -148,6 +148,6 @@ It places even number of spaces between the rows in vertical direction, and ther
 ```
 
 <figure>
-<img src="../assets/align-content/evenly.png" height="390" width="862" alt="align content property with space-evenly value">
-<figcaption><p align="center">align content property with space-evenly value</p><figcaption>
+<img src="../assets/align-content/evenly.png" height="390" width="862" alt="align-content property with space-evenly value">
+<figcaption><p align="center">align-content property with space-evenly value</p><figcaption>
 </figure>
