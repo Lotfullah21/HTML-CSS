@@ -90,3 +90,35 @@ only select one file at a time.
 It can be used with any input type, like password,radio, text and so on.
 
 `<input type="text" id="firstName" name="firstName" required />`
+
+# Form Submission
+
+```http
+<form method="get">
+</form>
+```
+
+A web browser communicates with the server using a http request-response cycle.
+The web browser sends the request and a web server sends the response.
+
+Forms data can be submitted via two methods as part of a request, `http get method` and http `post method`.
+
+The form will default to the HTTP GET method when the method attribute is not provided.
+
+## http post
+
+Here, the form data is inserted into the content of the HTTP request
+
+## http get
+
+Here, the form data is appended at the end of url.
+
+Using the above methods, there are some short comings:
+
+- URL length by browsers (up to 2000 chars)
+- URL length by web server
+- Security threats, the data can be read by third parties.
+
+The absolute path, which starts with a forward slash, will use the base address of the current website, such as https://meta.com and combine it with the absolute path. For example, if /login is the absolute path, the form will be submitted to https://meta.com/login. If the address is https://meta.com/company-info/ and /login is the absolute path, the submission address will still be https://meta.com/login.
+
+Similarly, a relative path will combine the current web address with a relative path. For example, if the web browser is currently on the web page https://meta.com/company-info/, and the relative path is set to login, the form will be submitted to https://meta.com/company-info/login.
