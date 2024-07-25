@@ -10,7 +10,7 @@
 
 ### COMMAND + ENTER === START A NEW LINE
 
-### COMMAND + K + COMMAND + S === SHORTCUTS
+### COMMAND + K + COMMAND + S === **SHORTCUTS**
 
 ### COMMAND + Z === UNDO
 
