@@ -4,16 +4,10 @@
 	box-sizing: border-box;
 }
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
 .container {
 	display: grid;
 	min-height: 50vh;
-	/* do not go below 200px for my 2nd column. */
+	/* do not go below 200px for my 2nd row. */
 	grid-template-rows: minmax(200px, auto);
 	grid-template-columns: 0.25fr minmax(100px, 1fr) 0.5fr;
 }

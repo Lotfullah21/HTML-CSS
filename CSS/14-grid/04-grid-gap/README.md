@@ -64,7 +64,7 @@ A shorthand that is doing the same thing as `column-gap` and `row-gap` does, com
 
 It can be used in two ways:
 
-1. ### `gap: row-gap column-gap`:
+### `gap: row-gap column-gap`:
 
 Both of the gaps can be added for a single container with different elements.
 
@@ -82,7 +82,7 @@ Both of the gaps can be added for a single container with different elements.
 <figcaption><p align="center">grid gutters</p></figcaption>
 </figure>
 
-1. ### `gap: row-column-gap`:
+### `gap: row and column-gap`:
 
 Just one value, will be sufficient. It is used when we want same gap between rows and columns.
 

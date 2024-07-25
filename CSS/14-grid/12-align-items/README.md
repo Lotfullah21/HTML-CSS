@@ -1,10 +1,10 @@
-## align-items:
+# align-items:
 
-It moves container's elements items along vertical or column directions and the alignment is done within the each cell.
+It moves container's elements items along vertical or column directions and the alignment is done within each cell.
 
 The movement is vertical, either to top or bottom of the cell.
 
-### possible values it can take:
+### possible values it can take
 
 ```css
 .container {

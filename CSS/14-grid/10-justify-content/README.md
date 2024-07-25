@@ -1,6 +1,6 @@
 ## Justify-content
 
-It the container children or grid tracks along the horizontal or column axis.
+It moves the container children or grid tracks along the horizontal or column axis.
 
 Note that all movements are done between or for columns, which means that the elements are moving either to the left or right.
 
@@ -26,7 +26,7 @@ It is the property that is by default, all columns are aligned at the beginning.
 
 <figure>
 <img src="../assets/justify-content/start.png" height="390" width="862" alt="start">
-<figcaption><p align="center">justify content property with default value</p><figcaption>
+<figcaption><p align="center">justify-content property with default value</p><figcaption>
 </figure>
 
 ### 2. end
@@ -47,7 +47,7 @@ It pushes all grid tracks along horizontal axis to the right most side of the co
 
 <figure>
 <img src="../assets/justify-content/end.png" height="390" width="862" alt="justify content property with end value">
-<figcaption><p align="center">justify content property with start value</p><figcaption>
+<figcaption><p align="center">justify-content property with end value</p><figcaption>
 </figure>
 
 ### 3. center:
@@ -68,7 +68,7 @@ It aligns all columns to the center of the container along horizontal axis.
 
 <figure>
 <img src="../assets/justify-content/center.png" height="390" width="862" alt="justify content property with center value">
-<figcaption><p align="center">justify content property with center value</p><figcaption>
+<figcaption><p align="center">justify-content property with center value</p><figcaption>
 </figure>
 
 ### 4. space-around:
@@ -89,7 +89,7 @@ Container's space is evenly distributed between the columns and remaining space 
 
 <figure>
 <img src="../assets/justify-content/around.png" height="390" width="862" alt="justify content property with space-around value">
-<figcaption><p align="center">justify content property with space around value</p><figcaption>
+<figcaption><p align="center">justify-content property with space around value</p><figcaption>
 </figure>
 
 ### 5. space-between:
@@ -109,8 +109,8 @@ The container's space is evenly distributed between the columns.
 ```
 
 <figure>
-<img src="../assets/justify-content/between.png" height="390" width="862" alt="justify content property with space-between value">
-<figcaption><p align="center">justify content property with space-between value</p><figcaption>
+<img src="../assets/justify-content/between.png" height="390" width="862" alt="justify-content property with space-between value">
+<figcaption><p align="center">justify-content property with space-between value</p><figcaption>
 </figure>
 
 ### 6. space-evenly:
@@ -130,8 +130,8 @@ Container's space is evenly distributed between the columns and the starting and
 ```
 
 <figure>
-<img src="../assets/justify-content/even.png" height="390" width="862" alt="justify content property with space-evenly value">
-<figcaption><p align="center">justify content property with space-evenly value</p><figcaption>
+<img src="../assets/justify-content/even.png" height="390" width="862" alt="justify-content property with space-evenly value">
+<figcaption><p align="center">justify-content property with space-evenly value</p><figcaption>
 </figure>
 
 ### Note:
@@ -151,6 +151,6 @@ In order to work with this property all the units should be absolute like `%, px
 ```
 
 <figure>
-<img src="../assets/justify-content/fr.png" height="390" width="862" alt="justify content property with fraction unit">
-<figcaption><p align="center">justify content property with fraction unit</p><figcaption>
+<img src="../assets/justify-content/fr.png" height="390" width="862" alt="justify-content property with fraction unit">
+<figcaption><p align="center">justify-content property with fraction unit</p><figcaption>
 </figure>

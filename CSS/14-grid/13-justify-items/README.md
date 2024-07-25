@@ -1,6 +1,6 @@
 ## justify-items:
 
-It moves container's elements items along horizontal or row directions and the alignment is done within the each cell.
+It moves container's elements items along horizontal or row directions and the alignment is done within each cell.
 
 The movement is horizontal, either to the left or to the right within a cell.
 
@@ -83,4 +83,3 @@ Aligns content to the center of their cell.
 <img src="../assets/justify-items/center.png" height="380" width="862" alt="justify items property with center value">
 <figcaption><p align="center">justify items property with center value</p><figcaption>
 </figure>
-

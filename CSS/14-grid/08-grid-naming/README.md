@@ -50,7 +50,7 @@ The names can be added to each column/row start and end so that when adding the 
 ```
 
 Here at the start and end of each column, we have added a name.
-For instance, in `grid-template-columns`, instead of 1, `start` will bes used, instead of `2`, `col-1-end` will be used an so on.
+For instance, in `grid-template-columns`, instead of 1, `start` will be used, instead of `2`, `col-1-end` will be used an so on.
 
 <figure>
 <img src="../assets/grid-naming/naming.png" height="640" width="762" alt="grid naming in dev tools">
