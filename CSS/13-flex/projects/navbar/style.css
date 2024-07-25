@@ -1,0 +1,43 @@
+/* Clears all extra margin and padding that are browser specific */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(38, 35, 35);
+	border: 2px rgba(199, 199, 199, 0.754) solid;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.nav-links {
+	display: flex;
+	background-color: rgb(130, 46, 46);
+	padding: 1rem;
+	column-gap: 1.8rem;
+	flex-wrap: wrap;
+}
+
+.nav-links a {
+	display: inline-block;
+}
+
+.nav-link {
+	font-size: 1.3rem;
+	padding: 0.5rem;
+	background-color: aqua;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
