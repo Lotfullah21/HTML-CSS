@@ -1,21 +1,21 @@
 /* only select the p's which are children or contained within 'my-block' class*/
 
 #title {
-  color: green;
+	color: green;
 }
 
 .my-block {
-  color: red;
+	color: red;
 }
 
 #new-block {
-  color: blue;
+	color: blue;
 }
 /* from 'new-block' id, change the color of all h4 elements */
 #new-block h4 {
-  color: rgb(13, 255, 0);
+	color: rgb(13, 255, 0);
 }
-
+/* Change the color of h4 elements that are placed immediately after new-block id. */
 #new-block > h2 {
-  color: rgb(0, 255, 221);
+	color: rgb(0, 255, 221);
 }
