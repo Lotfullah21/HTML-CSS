@@ -1,13 +1,13 @@
 body {
-	background-color: rgb(15, 14, 14);
+	background-color: grey;
+	border: 2px rgb(50, 255, 255) solid;
 }
 
 .container {
-	height: 20rem;
 	display: flex;
+	/* create a new line if the contents dose not fit */
+	flex-wrap: wrap-reverse;
 	flex-wrap: wrap;
-	border: 2px rgb(50, 255, 255) solid;
-	column-gap: 30px;
 }
 .box {
 	text-align: center;
@@ -35,7 +35,7 @@ body {
 	background: rgb(154, 146, 0);
 }
 .box-7 {
-	background: rgb(0, 14, 66);
+	background: rgb(66, 35, 0);
 }
 .box-8 {
 	background: rgb(67, 169, 0);

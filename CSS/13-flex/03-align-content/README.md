@@ -4,10 +4,11 @@ It adjust the elements along the cross axis(vertical axis), but with one big dif
 
 Using this property, the individual elements are the target to be aligned along the cross axis.
 
-This can have affect only if the flex items are along multiple lines and that can be achieved if the `flex-wrap:wrap|reverse-wrap`, in one single line flexible container, this does not have any affect.
+This can have affect only if the flex items are along multiple lines and that can be achieved if the properties set to `flex-wrap:wrap|reverse-wrap`.
+In one single line flexible container, this does not have any affect.
 Also, for flexible container, some height should be assigned.
 
-Just like `justify-content`, but in vertical direction. These aligning can be performed only if there was left over spaces in the container.
+Just like `justify-content`, but in vertical direction. These aligning can be performed only if there is leftover spaces in the container.
 
 ```css
 .container {

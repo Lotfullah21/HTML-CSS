@@ -7,7 +7,6 @@ body {
 	align-items: center;
 	justify-content: space-around;
 	margin: 5rem auto;
-	flex-direction: row-reverse;
 	border: 2px solid rgb(140, 135, 135);
 }
 
@@ -30,6 +29,7 @@ body {
 }
 .box-3 {
 	background: rgb(65, 37, 12);
+	flex-basis: 4rem;
 }
 
 .box-4 {

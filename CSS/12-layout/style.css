@@ -1,0 +1,19 @@
+img {
+  /* take the full size of the block */
+  width: 100%;
+  display: block;
+  height: 200px;
+  /* object-fit: cover; */
+}
+
+.one {
+  /* float: left; */
+  width: 40%;
+  margin-right: 3%;
+}
+
+.two {
+  /* float: left; */
+  width: 40%;
+  margin-right: 3%;
+}
