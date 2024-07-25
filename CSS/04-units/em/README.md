@@ -1,7 +1,9 @@
 ## EM
 
-it depends on parent, that parent can the browser or a div.
+It depends on parent, that parent can the browser or a div.
 for browser the base value is 16px, which means 1em = 16px, 2em = 32 px
+
+`em` stands for elements and `rem` stands for root element.
 
 if we have a div block and inside of it a child, then our child em will be calculated based on parent size.
 
