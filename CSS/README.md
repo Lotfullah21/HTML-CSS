@@ -10,3 +10,7 @@ It separates the content from style and allow us to change the appearance of a w
     <img src="./assets/css.png" alt="relationship between css and html described here">
     <figcaption>CSS properties and HTML element relationships</figcaption>
 </figure>
+
+## Resource For Free Images
+
+1. <a href="https://www.pexels.com/">pexels</a>

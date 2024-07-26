@@ -1,0 +1,20 @@
+.box {
+	width: 200px;
+	height: 200px;
+	border: 2px solid red;
+	margin-bottom: 1rem;
+}
+
+.box-3 {
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.box-1 {
+	padding: 40px;
+}
+/* Because 2*padding is greater than original size, adding border-box value does not have any effect. */
+.box-2 {
+	padding: 150px;
+	box-sizing: border-box;
+}
