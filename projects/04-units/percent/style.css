@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.navbar {
+	height: 4rem;
+	font-size: 2rem;
+}
+
+.banner {
+	height: calc(100vh - 4rem);
+	background: black;
+	color: white;
+}
+
+.banner .title {
+	color: red;
+	font-size: 2rem;
+	height: 1.5;
+	text-transform: capitalize;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	padding-top: 1rem;
+}
+
+.banner .banner-info {
+	letter-spacing: 1px;
+	font-size: 1.4rem;
+	padding-top: 1rem;
+}
+
+.banner .info {
+	letter-spacing: 1.2px;
+	padding-top: 1rem;
+}
+
+.btn {
+	background: red;
+	color: white;
+	padding: 0 0.9rem;
+	font-size: 1rem;
+	margin-top: 0.8rem;
+}
