@@ -3,9 +3,9 @@
 Boxes helps web browsers on how to display the elements on the screen.
 Each single element is enclosed inside a box. For instance if we consider `<p>Hello</p>` as our element, then there is a box around this element which specifies its heights, widths, its distance from other element and so on.
 
-CSS roles are applied to the box of the element.
+CSS rules are applied to the box of the element.
 
-Every box consist of four element which are content, padding, border, and margin.
+Every box consist of four element which are ` content`, `padding`, `border`, and `margin`.
 
 <img src="./assets/detail.png">
 
@@ -49,10 +49,10 @@ Every box consist of four element which are content, padding, border, and margin
         <td>margin</td>
         <td>
           It separates an element from its neighboring elements, or it is the
-          distance between two elements/td>
+          distance between two elements.
         </td>
         <td>
-          element{ margin-top:3px; margin-right:4px; margin-bottom:4px;
+         element{ margin-top:3px; margin-right:4px; margin-bottom:4px;
           margin-left:3px; }
         </td>
       </tr>
@@ -61,11 +61,19 @@ Every box consist of four element which are content, padding, border, and margin
 
 #### negative margins:
 
-It is used to attract elements or move one element on top of another
+It is used to attract elements or move one element on top of another.
+
 `outline`: it is used to draw boxes around an element, but with one vital difference with border, we can move the outline to the outside or inside of the boxes.
 
-In CSS we can set only the left and right margins to auto
+In CSS we can set only the left and right margins as auto value.
 
-Padding does increase the size of the content, but rather increase the area where the content is placed.
+```css
+ele {
+	left-margin: auto;
+	right-margin: auto;
+}
+```
+
+Padding does not increase the size of the content, but rather increase the area where the content is placed.
 
 <img src="./assets/box.png">
