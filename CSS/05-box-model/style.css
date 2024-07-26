@@ -4,29 +4,30 @@ like: headings(h1...h6) ,img,div,form
 
 */
 body {
-  background-color: rgba(0, 0, 0, 0.859);
-  height: 1203px;
+	background-color: rgba(0, 0, 0, 0.859);
+	height: 1203px;
 }
+
 #one {
-  color: rgb(132, 12, 12);
-  background-color: rgba(77, 255, 112, 0.635);
-  padding: 10px 0px 20px 30px;
-  margin-bottom: 20px;
-  border-style: dashed;
-  border-width: 4px;
-  border-color: beige;
-  /* border: style, width, color(srgb red green blue); */
-  border-radius: 6px;
+	color: rgb(132, 12, 12);
+	background-color: rgba(77, 255, 112, 0.635);
+	padding: 10px 0px 20px 30px;
+	margin-bottom: 20px;
+	border-style: dashed;
+	border-width: 4px;
+	border-color: beige;
+	/* border: style, width, color(srgb red green blue); */
+	border-radius: 6px;
 }
 
 #four {
-  background-color: rgb(11, 3, 18);
-  color: rgb(5, 160, 238);
-  padding: 40px;
-  border: 5px solid rgb(15, 184, 218);
-  border-radius: 5px;
-  /* margin-top: -2em; */
-  outline: 3px solid red;
-  /* move the outline inside the border. */
-  outline-offset: -20px;
+	background-color: rgb(11, 3, 18);
+	color: rgb(5, 160, 238);
+	padding: 40px;
+	border: 5px solid rgb(15, 184, 218);
+	border-radius: 5px;
+	/* margin-top: -2em; */
+	outline: 3px solid red;
+	/* move the outline inside the border. */
+	outline-offset: -16px;
 }
