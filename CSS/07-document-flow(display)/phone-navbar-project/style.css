@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	/* border: 1px rgb(255, 0, 0) solid; */
+}
+
+.navbar {
+	text-align: center;
+}
+
+ul li a {
+	display: block;
+	padding: 0.1rem;
+	list-style-type: none;
+	margin: 0.1rem;
+	letter-spacing: 2px;
+	font-size: 1.09rem;
+	text-decoration: none;
+	text-transform: capitalize;
+	background: black;
+	color: white;
+}
