@@ -22,3 +22,5 @@ for instance,
     font-size = 2em // 40px
 }
 ```
+
+If we don't specify a font size for the parent element, the child element's em value will be relative to the browser's default font size, which is typically 16px

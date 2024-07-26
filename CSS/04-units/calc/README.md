@@ -1,11 +1,17 @@
-## vh and vw
+# calc()
 
-both of the relative to the height and width of the viewport.
+The calc() function in CSS allows us to perform calculations to determine CSS property values. This can be very useful for combining different units, creating responsive designs, or adjusting sizes dynamically.
 
-vh: viewport height
-vw: viewport width
+For instance, when we want to set our banner height, or viewport and many other areas.
 
-## line-height
+```css
+.navbar {
+	height: 30px;
+}
 
-if line-height is unit-less `line-height:1.4` the line height of each element will be `line-height font-size * `
-if it is fixed like `line-height: 30px`, then this will be same for all.
+.hero {
+	height: calc(100vh - 30px);
+}
+```
+
+Now, using calc function our here takes the whole heighth of the viewport except the `30px` from `navbar.`
