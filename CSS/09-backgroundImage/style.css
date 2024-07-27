@@ -1,0 +1,31 @@
+div {
+	height: 300px;
+	border: 2px solid green;
+}
+
+.big-img {
+	background-image: url("./images/afg.jpg");
+	background-repeat: no-repeat;
+}
+.small-img {
+	background-image: url("./images/small-kid.jpg");
+	/* DO NOT REPEAT AN IMAGE,  */
+	background-repeat: no-repeat;
+	background-repeat: repeat;
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+	background-repeat: space;
+	background-position: center;
+	background-position: left;
+	background-position: right;
+	background-position: top;
+	background-position: 0 0;
+	/* Move 20% to right and 40% on the Y-axis */
+	background-position: 20% 40%;
+	/* 100% to the right and 100% to the bottom */
+	background-position: 100% 100%;
+}
+.normal-img {
+	background-image: url("./images/hero.jpg");
+	background-repeat: round;
+}
