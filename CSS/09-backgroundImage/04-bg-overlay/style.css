@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	min-height: 100vh;
+	border: 2px solid green;
+	display: flex;
+	/* Move along main axis */
+	justify-content: center;
+	/* Move along vertical axis */
+	align-items: center;
+	color: rgb(246, 16, 16);
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+.big-img {
+	background-image: linear-gradient(
+			to bottom,
+			rgba(23, 165, 23, 0.727),
+			rgba(0, 128, 0, 0.243)
+		),
+		url("../images/afg.jpg");
+	background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: local;
+}
+
+.small-img {
+	background-image: url("../images/teaching.jpg");
+	/* DO NOT REPEAT AN IMAGE,  */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.normal-img {
+	/* Short cut, do not mix (center/cover), keep them in order, others can swapped (fixed no-repeat) */
+	background: url("../images/hero.jpg") center/cover no-repeat fixed;
+}
