@@ -3,6 +3,8 @@ div {
 }
 
 p {
+	/* To clear the side of the block level element which has a floating element. */
+
 	clear: left;
 }
 
@@ -11,4 +13,5 @@ p {
 	width: 140px;
 	height: 130px;
 	float: right;
+	float: left;
 }

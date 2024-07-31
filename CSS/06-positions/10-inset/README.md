@@ -2,17 +2,15 @@ In CSS, the inset property is a shorthand property that combines the top, right,
 
 ```css
 element {
-  inset: top right bottom left;
+	inset: top right bottom left;
 }
 ```
 
 Here, top, right, bottom, and left are values representing the distance of the element from the respective edges of its containing element. Each value can be specified in pixels, em units, percentages, etc.
 
-src: chatGPT
-
 ```css
 element {
-  inset: 0 0 0 0;
+	inset: 0 0 0 0;
 }
 ```
 
@@ -20,7 +18,7 @@ can be written as
 
 ```css
 element {
-  inset: 0;
+	inset: 0;
 }
 ```
 
