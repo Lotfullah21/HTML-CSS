@@ -29,8 +29,9 @@ div::before {
 	/* take 100% of the div which we are creating this content before */
 	width: 100%;
 	height: 100%;
+	/* It is looking for some parent that has position relative */
 	position: absolute;
-	/* to remove the margins because we are adding something new */
+	/* to remove the margins because we are adding something new and by default it adds up to our content */
 	box-sizing: border-box;
 	top: -20%;
 	left: -20%;

@@ -1,0 +1,30 @@
+div {
+	border: 1px solid red;
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: black;
+	color: white;
+	font-size: 2rem;
+	width: 100vw;
+}
+
+div {
+	margin-top: 2rem;
+}
+
+.second {
+	border-radius: 50%;
+	width: 140px;
+	height: 130px;
+	float: right;
+	float: left;
+}
+
+.container {
+	height: 100vh;
+	background-color: grey;
+}

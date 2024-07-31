@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div {
+	background: black;
+	width: 350px;
+	height: 350px;
+	margin-top: 2px;
+}
+
+.normal-box {
+	background: rgb(41, 38, 38);
+}
+
+.special-box {
+	background: rgb(145, 0, 0);
+	position: relative;
+}
+
+p {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(10, 2, 2, 0.734);
+	font-size: 4em;
+	color: #fff;
+	/* top: 20px;
+	right: 30px;
+	bottom: 20px;
+	left: 30px;
+	inset: 20px 30px 20px 30px; */
+	inset: 0;
+	text-align: center;
+}

@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div {
+	border: 1px solid red;
+}
+
+.navbar {
+	position: sticky;
+	top: 20px;
+	background: black;
+	color: white;
+	font-size: 2rem;
+	width: 100vw;
+}
+
+div {
+	margin-top: 2rem;
+}
+
+.container {
+	height: 200vh;
+	background-color: grey;
+}

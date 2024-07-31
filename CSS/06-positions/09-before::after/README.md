@@ -8,9 +8,8 @@ div::before {
 }
 ```
 
-`content` is necessary for creating the content if it is an empty block.
-
-this will add this content before each div element.
+`content` is necessary for creating the content.
+For instance image is not a content like `h1, h2, p`, we have to wrap it inside a `div` and add the content before or after that div.
 
 for empty `div` DO NOT FORGET `height && width` property.
 
@@ -51,8 +50,33 @@ we need to wrap it inside a div and add that content based on that div.
 
 ```css
 ! Wrong img::before {
-	content: "hell";
+	content: "hello";
 }
 ```
 
 For now, just forget about position property.
+
+# Tip
+
+```html
+<div class="card"><img src="../../images/cal.jpg" /></div>
+```
+
+```css
+.card {
+	width: 30vw;
+	height: 20vh;
+	margin: 90px auto;
+	margin-top: 240px;
+	position: relative;
+}
+```
+
+adding `display:block and width:100%` is crucial for having a responsive image inside a `div` and to avoid any unnecessary gaps inside the `div`.
+
+```css
+img {
+	width: 100%;
+	display: block;
+}
+```
