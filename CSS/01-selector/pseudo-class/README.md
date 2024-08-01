@@ -30,3 +30,12 @@ It applies styles when the user clicks on the selector.
 ## 1. selector:hover:
 
 It applies styles when the cursor moves over the the selector.
+
+```css
+:root {
+	font-size: 19px;
+}
+```
+
+`:root` pseudo class allows to add styles for the root of our document.
+The difference from `html` is it has higher specificity.

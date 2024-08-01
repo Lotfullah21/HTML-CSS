@@ -1,0 +1,43 @@
+div {
+	width: 250px;
+	height: 150px;
+	margin-top: 50px;
+	margin-left: 60px;
+}
+
+.one:hover {
+	background: rgb(0, 0, 0);
+	transform: translateX(120px);
+}
+
+.one {
+	background: rgb(232, 169, 9);
+	transition: all linear 3s;
+}
+.two {
+	background: red;
+	animation-name: move;
+	animation-duration: 2s;
+}
+
+@keyframes move {
+	0% {
+		transform: translateX(10px);
+	}
+	10% {
+		transform: translate(20px);
+		transform: rotateZ(45deg);
+	}
+	40% {
+		background: green;
+		transform: translateY(30px);
+	}
+
+	60% {
+		transform: translate(90px, -10px);
+	}
+
+	100% {
+		transform: translate(10px);
+	}
+}
