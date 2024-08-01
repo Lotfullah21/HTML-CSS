@@ -34,7 +34,7 @@ It affects the pixel values and distort the quality of the image if its size is 
 
 ```css
 div {
-	background-size: cover;
+	background-size: contain;
 }
 ```
 

@@ -13,8 +13,6 @@ nav {
 	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
 		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 	height: 3rem;
-	display: flex;
-	place-items: center;
 	padding: 1rem;
 	position: sticky;
 	top: 0;
@@ -23,7 +21,7 @@ nav {
 }
 
 .nav-center {
-	/* Crucial to put the nav on the edge */
+	/* Crucial to put the nav on the edge and aligned with the hero center*/
 	width: 90vw;
 	max-width: 1192px;
 	/* Put in the center, but not the element, confined within the width of 90vw */
@@ -67,6 +65,8 @@ li {
 	margin-bottom: 0.8rem;
 	color: white;
 	font-size: 1.1rem;
+	text-align: center;
+	animation: banner 1s 1;
 }
 
 .hero-banner .btn {
@@ -79,6 +79,7 @@ li {
 	border: 1px solid white;
 	color: white;
 	letter-spacing: 2px;
+	animation: btn 1s 1;
 }
 
 .container {
@@ -94,5 +95,29 @@ li {
 		background-repeat: no-repeat;
 		background-position: center;
 		background-attachment: fixed;
+	}
+}
+
+@keyframes banner {
+	0% {
+		opacity: 0;
+		transform: translateY(-1000%);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes btn {
+	0% {
+		opacity: 0;
+		transform: translateY(1000%);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
 	}
 }

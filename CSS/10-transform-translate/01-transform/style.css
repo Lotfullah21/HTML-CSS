@@ -1,0 +1,23 @@
+div {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+}
+
+.one {
+	background: green;
+	background: rgb(232, 169, 9);
+	transform: translate(50px, 90px);
+	transform: scale(1.5);
+}
+.two {
+	background: red;
+	transform: translate(10%);
+	transform: skew(30deg);
+}
+
+.three {
+	background: rgb(91, 218, 32);
+	transform: translateY(90px);
+	transform: rotateZ(290deg);
+}
