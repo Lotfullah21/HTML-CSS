@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.one {
+	height: 300px;
+	width: 300px;
+	margin: 4rem auto;
+	background: grey;
+	box-shadow: 6px 8px 13px -3px rgba(0, 0, 0, 0.75);
+}
+
+.two {
+	height: 200px;
+	width: 200px;
+	margin: 4rem auto;
+	background: grey;
+	/* box-shadow: x-direction, y-direction, blur */
+	box-shadow: 0.4px 1px 4px black;
+}

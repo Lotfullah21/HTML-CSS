@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	background: black;
+}
+
+.content {
+	padding: 0.1rem;
+	overflow: hidden;
+	margin: 2rem 0rem auto;
+	text-transform: capitalize;
+	display: grid;
+	row-gap: 3rem;
+	color: rgb(193, 193, 193);
+	text-align: center;
+}
+
+h1 {
+	text-shadow: 2px 11px 20px rgb(249, 120, 120), 12px 11px 12px rgb(218, 8, 8);
+}
+
+p {
+	text-shadow: 0 0 10px rgb(205, 191, 0), 0 0 10px rgb(205, 24, 0),
+		0 0 10px rgb(0, 164, 205), 0 0 10px rgb(205, 154, 0),
+		0 0 10px rgb(205, 157, 0), 0 0 10px rgb(205, 0, 0), 0 0 10px rgb(205, 0, 0),
+		0 0 10px rgb(239, 8, 8), 0 0 10px rgb(205, 0, 0);
+}
