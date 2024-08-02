@@ -149,6 +149,9 @@ p {
 }
 
 span {
+	color: var(--clr-grey-1);
+}
+h1 > span {
 	color: var(--clr-primary-5);
 }
 .section {
@@ -158,6 +161,7 @@ span {
 .section-title {
 	text-align: center;
 	margin-bottom: 4rem;
+	text-transform: capitalize;
 }
 .section-title h2 {
 	text-transform: uppercase;
@@ -186,7 +190,12 @@ Navbar
 
 .nav-logo {
 	display: inline-block;
-	font-size: 1.43rem;
+	font-size: 1.23rem;
+	cursor: pointer;
+}
+
+.nav-logo:hover {
+	color: var(--clr-primary-4);
 }
 
 .navbar {
@@ -197,7 +206,7 @@ Navbar
 	width: 100%;
 	box-shadow: var(--shadow-dark);
 	z-index: 100;
-	padding: 1rem 2rem;
+	padding: 0.5rem 2rem;
 }
 
 .nav-icons {
@@ -260,7 +269,7 @@ Navbar
 }
 
 .show-links {
-	height: 280px;
+	height: 240px;
 }
 
 @media screen and (min-width: 992px) {
@@ -281,7 +290,7 @@ Navbar
 	}
 
 	.nav-header {
-		padding: 0 0;
+		padding: 0.4rem 0;
 	}
 	.nav-link {
 		padding: 0 0;
@@ -359,7 +368,7 @@ Hero
 
 @media screen and (min-width: 678px) {
 	.hero {
-		background: linear-gradient(rgba(1, 90, 87, 0.16), rgba(0, 102, 92, 0.205)),
+		background: linear-gradient(rgba(1, 90, 87, 0.26), rgba(0, 102, 92, 0.405)),
 			url("../assets/images/hero.jpg");
 		background-position: center;
 		background-repeat: no-repeat;
@@ -571,11 +580,13 @@ Contact
 	background: var(--clr-primary-5);
 }
 
-.contact-title h3 {
-	color: var(--clr-white);
-	text-transform: capitalize;
+.contact.section-title span {
+	color: white;
 }
 
+.contact span {
+	color: var(--clr-white);
+}
 .contact-title p {
 	color: var(--clr-primary-9);
 	text-transform: capitalize;
@@ -700,4 +711,8 @@ Footer
 	color: var(--clr-white);
 	text-transform: capitalize;
 	letter-spacing: var(--spacing);
+}
+
+.copyright #date {
+	color: white;
 }
