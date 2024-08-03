@@ -3,6 +3,8 @@
 It is short for flexible box model.
 Flex box is a type of container that can be easily scale over larger web applications and also it gives more control for controlling the elements inside a container.
 
+It is a block level element.
+
 The main idea behind the flex layout is to give the container the ability to alter its item's width/height, and order to best fill the available space.
 This is because it can grow, shrink and align the items inside it which give better control to the programmer over the contents and styling of the items inside the container.
 A flex container expands items to fill available free space or shrinks them to prevent overflow.(1)

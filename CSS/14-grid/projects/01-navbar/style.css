@@ -1,0 +1,153 @@
+/* 
+
+============
+Global variables
+============
+*/
+
+:root {
+	/* primary red */
+	--clr-primary-1: rgb(64, 0, 0);
+	--clr-primary-2: rgb(106, 0, 0);
+	--clr-primary-3: rgb(149, 0, 0);
+	--clr-primary-4: rgb(191, 0, 0);
+	--clr-primary-5: rgb(234, 0, 0);
+	--clr-primary-6: rgb(255, 21, 21);
+	--clr-primary-7: rgb(255, 64, 64);
+	/* secondary blue */
+	--clr-secondary-1: rgb(0, 19, 64);
+	--clr-secondary-2: rgb(0, 32, 106);
+	--clr-secondary-3: rgb(0, 45, 149);
+	--clr-secondary-4: rgb(0, 58, 191);
+	--clr-secondary-5: rgb(0, 70, 234);
+	--clr-secondary-6: rgb(21, 92, 255);
+	--clr-secondary-7: rgb(64, 121, 255);
+	/* Grey */
+	--clr-grey-1: rgb(11, 11, 11);
+	--clr-grey-2: rgb(32, 32, 32);
+	--clr-grey-3: rgb(53, 53, 53);
+	--clr-grey-4: rgb(74, 74, 74);
+	--clr-grey-5: rgb(96, 96, 96);
+	--clr-grey-6: rgb(117, 117, 117);
+	--clr-grey-7: rgb(159, 159, 159);
+	/* white  */
+
+	--clr-white: #fff;
+	--clr-black: #000;
+	--transition: all 0.2s linear;
+	--spacing: 0.2rem;
+	--shadow-light: 0 4px 6px -1px rgb(0 0 0 / 0.1),
+		0 2px 4px -2px rgb(0 0 0 / 0.1);
+	--shadow-dark: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+
+/* 
+
+============
+Global Styles
+============
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	block-size: border-box;
+}
+
+body {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+	color: var(--clr-black);
+	background: var(--clr-white);
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+}
+img {
+	display: block;
+	width: 100%;
+}
+
+h1,
+h2,
+h3 {
+	text-transform: capitalize;
+	margin-bottom: 1.25rem;
+	letter-spacing: var(--spacing);
+}
+h1 {
+	font-size: 2.85rem;
+}
+h2 {
+	margin-bottom: 0;
+}
+
+p {
+	font-weight: 300;
+	font-size: 0.75rem;
+	line-height: 2;
+}
+
+.btn {
+	display: inline-block;
+	text-transform: capitalize;
+	padding: 0.475rem 0.8rem;
+	background: var(--clr-primary-4);
+	color: white;
+	letter-spacing: var(--spacing);
+	transition: var(--transition);
+}
+
+.btn:hover {
+	background: var(--clr-primary-5);
+}
+
+li {
+	list-style: none;
+}
+/* 
+
+============
+Global variables
+============
+*/
+
+.navbar {
+	padding: 0 2rem;
+	box-shadow: var(--shadow-dark);
+	color: black;
+}
+
+.navbar a {
+	display: block;
+	text-transform: capitalize;
+	padding: 1rem 0;
+	letter-spacing: var(--spacing);
+	transition: var(--transition);
+	color: var(--clr-black);
+}
+
+.navbar a:hover {
+	color: var(--clr-secondary-7);
+	text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+	.nav-center {
+		width: 90vw;
+		max-width: 1192px;
+		margin: 0 auto;
+	}
+	.nav-links {
+		display: grid;
+		justify-items: center;
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.nav-links a {
+		text-align: center;
+	}
+}

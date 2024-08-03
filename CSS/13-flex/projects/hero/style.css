@@ -1,0 +1,25 @@
+/* Clears all extra margin and padding that are browser specific */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.hero {
+	background: red;
+	min-height: 100vh;
+	background: url("./assets/images/hero.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgb(255, 0, 0);
+	letter-spacing: 3px;
+}
+
+.container {
+	min-height: 100vh;
+}
