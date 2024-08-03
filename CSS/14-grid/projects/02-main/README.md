@@ -54,7 +54,7 @@ crucial to have a proper image ration and aligned cards
 Crucial When we are getting dynamic contents, with out the given snippet code, our layout would look like this.
 
 <figure>
-<img src="../assets/issues/height.png" width="720px" height="340px">
+<img src="../assets/issues/height.png" width="720px" height="440px">
 <p text-align="center">before adding the above css</p>
 </figure>
 
@@ -67,6 +67,6 @@ Crucial When we are getting dynamic contents, with out the given snippet code, o
 ```
 
 <figure>
-<img src="../assets/issues/height-fixed.png" width="720px" height="340px">
+<img src="../assets/issues/height-fixed.png" width="720px" height="440px">
 <p text-align="center">After adding 1fr to middle column</p>
 </figure>
