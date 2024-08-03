@@ -67,6 +67,6 @@ Crucial When we are getting dynamic contents, with out the given snippet code, o
 ```
 
 <figure>
-<img src="../assets/issues/height-fixd.png" width="720px" height="340px">
+<img src="../assets/issues/height-fixed.png" width="720px" height="340px">
 <p text-align="center">After adding 1fr to middle column</p>
 </figure>
