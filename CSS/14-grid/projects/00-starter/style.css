@@ -1,0 +1,95 @@
+/* 
+
+============
+Global variables
+============
+*/
+
+:root {
+	--clr-primary-1: rgb(64, 0, 0);
+	--clr-primary-2: rgb(106, 0, 0);
+	--clr-primary-3: rgb(149, 0, 0);
+	--clr-primary-4: rgb(191, 0, 0);
+	--clr-primary-5: rgb(234, 0, 0);
+	--clr-primary-6: rgb(255, 21, 21);
+	--clr-primary-7: rgb(255, 64, 64);
+
+	/* Grey */
+	--clr-dark-1: rgb(11, 11, 11);
+	--clr-dark-2: rgb(32, 32, 32);
+	--clr-dark-3: rgb(53, 53, 53);
+	--clr-dark-4: rgb(74, 74, 74);
+	--clr-dark-5: rgb(96, 96, 96);
+	--clr-dark-6: rgb(117, 117, 117);
+	--clr-dark-7: rgb(159, 159, 159);
+	/* white  */
+
+	--clr-white: #fff;
+	--clr-black: #000;
+	--transition: all 0.2s linear;
+	--spacing: 0.2rem;
+}
+
+/* 
+
+============
+Global Styles
+============
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	block-size: border-box;
+}
+
+body {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+	color: var(--clr-black);
+	background: var(--clr-white);
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+}
+img {
+	display: block;
+	width: 100%;
+}
+
+h1,
+h2,
+h3 {
+	text-transform: capitalize;
+	margin-bottom: 1.25rem;
+	letter-spacing: var(--spacing);
+}
+h1 {
+	font-size: 2.85rem;
+}
+h2 {
+	margin-bottom: 0;
+}
+
+p {
+	font-weight: 300;
+	font-size: 0.75rem;
+	line-height: 2;
+}
+
+.btn {
+	display: inline-block;
+	text-transform: capitalize;
+	padding: 0.475rem 0.8rem;
+	background: var(--clr-primary-4);
+	color: white;
+	letter-spacing: var(--spacing);
+	transition: var(--transition);
+}
+
+.btn:hover {
+	background: var(--clr-primary-5);
+}
