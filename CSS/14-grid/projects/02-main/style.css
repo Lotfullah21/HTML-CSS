@@ -140,7 +140,7 @@ Global variables
 	text-decoration: underline;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 568px) {
 	.nav-center {
 		width: 90vw;
 		max-width: 1192px;
@@ -273,9 +273,134 @@ Cards
 /* 
 
 ============
-Global variables
+Layout
 ============
 */
+
+.navbar-layout {
+	background: white;
+}
+
+.nav-links a {
+	display: block;
+	padding: 1rem 0.9rem;
+	text-transform: capitalize;
+	letter-spacing: var(--spacing);
+	transition: var(--transition);
+	color: var(--clr-grey-1);
+}
+
+.nav-links a:hover {
+	color: var(--clr-secondary-6);
+	text-decoration: underline;
+}
+
+.content {
+	padding: 2rem;
+	background: var(--clr-grey-8);
+}
+
+.content p {
+	font-size: 1rem;
+	max-width: 60vw;
+	margin: 0 auto;
+}
+
+.sidebar {
+	display: grid;
+	padding: 1rem 2rem;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	justify-content: space-between;
+	justify-items: center;
+	background: var(--clr-primary-7);
+	font-size: 1.3rem;
+	color: white;
+	transition: var(--transition);
+}
+
+.sidebar span:hover {
+	color: var(--clr-secondary-7);
+	cursor: pointer;
+}
+
+.footer {
+	text-align: center;
+	background: var(--clr-black);
+	color: var(--clr-white);
+	letter-spacing: 1px;
+	padding: 0.5rem 2rem;
+	text-transform: capitalize;
+}
+
+.main-section {
+	display: grid;
+	min-height: 100vh;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto 1fr auto auto;
+}
+
+@media screen and (min-width: 992px) {
+	.main-section {
+		min-height: 100vh;
+		grid-template-columns: auto 1fr auto;
+		grid-template-rows: 1fr auto;
+		grid-template-areas:
+			"navbar main sidebar"
+			"footer footer footer";
+	}
+	.sidebar {
+		display: grid;
+		grid-template-rows: repeat(4, 1fr);
+		grid-template-columns: 1fr;
+		align-items: center;
+	}
+
+	.nav-center {
+		width: auto;
+		max-width: auto;
+		margin: 0 0;
+	}
+
+	.header {
+		display: grid;
+		border: 2px solid rgb(77, 70, 70);
+	}
+	.footer {
+		text-align: center;
+		background: var(--clr-black);
+		color: var(--clr-white);
+		letter-spacing: 1px;
+		padding: 0.5rem 2rem;
+		text-transform: capitalize;
+		width: 100%;
+		grid-column: span 3;
+	}
+
+	.nav-links {
+		display: grid;
+		grid-template-rows: repeat(3, 1fr);
+		grid-template-columns: 1fr;
+		border: 2px solid red;
+		grid-area: navbar;
+		min-height: calc(100vh - 44.64px);
+		align-items: center;
+		justify-content: center;
+	}
+
+	.main {
+		grid-area: main;
+	}
+
+	.sidebar {
+		grid-area: sidebar;
+	}
+
+	.footer {
+		grid-area: footer;
+	}
+}
+
 /* 
 
 ============

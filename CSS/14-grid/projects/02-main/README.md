@@ -53,11 +53,6 @@ crucial to have a proper image ration and aligned cards
 
 Crucial When we are getting dynamic contents, with out the given snippet code, our layout would look like this.
 
-<figure>
-<img src="../assets/issues/height.png" width="720px" height="440px">
-<p text-align="center">before adding the above css</p>
-</figure>
-
 ```css
 .card {
 	display: grid;
@@ -67,6 +62,26 @@ Crucial When we are getting dynamic contents, with out the given snippet code, o
 ```
 
 <figure>
-<img src="../assets/issues/height-fixed.png" width="720px" height="440px">
-<p text-align="center">After adding 1fr to middle column</p>
+<img src="../assets/issues/height.png" width="720px" height="440px">
+<p align="center">before adding the above css</p>
 </figure>
+
+After adding the above css to our `card`.
+
+<figure>
+<img src="../assets/issues/height-fixed.png" width="720px" height="440px">
+<p align="center">After adding 1fr to middle column</p>
+</figure>
+
+## Layout
+
+```css
+.main-section {
+	display: grid;
+	min-height: 100vh;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto 1fr auto;
+}
+```
+
+Again, crucial for having a full filled page.
